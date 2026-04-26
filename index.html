@@ -528,6 +528,10 @@ footer{margin-top:48px;padding:20px 0;border-top:1px solid var(--border);text-al
             <button id="urlImportBtn" onclick="importURL()" style="padding:8px 13px;background:var(--b1);color:white;border:none;border-radius:6px;font-family:'DM Sans',sans-serif;font-size:12px;font-weight:600;cursor:pointer;white-space:nowrap;flex-shrink:0;">Importeer</button>
           </div>
 
+          <div style="margin-bottom:8px;">
+            <label for="titelInput" style="display:block;font-size:11px;font-weight:600;color:var(--muted);margin-bottom:4px;letter-spacing:0.4px;">TITEL (optioneel — telt niet mee als alinea)</label>
+            <input type="text" id="titelInput" placeholder="Bijv. Mein Traumberuf · Der Klimawandel · …" style="width:100%;box-sizing:border-box;padding:8px 10px;border:1px solid var(--border);border-radius:6px;font-family:'DM Sans',sans-serif;font-size:13px;background:var(--paper);color:var(--ink);">
+          </div>
           <textarea class="text-input-area" id="textInput" placeholder='Plak hier een Duitse tekst…' oninput="updateWordCount()"></textarea>
           <div class="input-meta">
             <span id="wordCount">0 woorden</span>
@@ -1296,7 +1300,8 @@ function setFinalNiveau(niveau,btn){
 function saveToLibraryFinal(){
   if(!currentText||!finalNiveau){showToast('Kies eerst een niveau');return;}
   const bronLabel=lleSelectedNiveau?'LLE: '+lleSelectedNiveau+(lleSelectedNiveau!==finalNiveau?' → definitief: '+finalNiveau:''):'AI-analyse';
-  const e={id:Date.now(),niveau:finalNiveau,tekst:currentText,titel:currentText.split(/[.!?\n]/)[0].trim().substring(0,72)||'Naamloze tekst',datum:new Date().toLocaleDateString('nl-NL'),analysis:currentAnalysis,bron:bronLabel,vragen:currentQuestions.length>0?currentQuestions:null};
+  const _titelVal=(document.getElementById('titelInput').value||'').trim();
+  const e={id:Date.now(),niveau:finalNiveau,tekst:currentText,titel:_titelVal||currentText.split(/[.!?\n]/)[0].trim().substring(0,72)||'Naamloze tekst',datum:new Date().toLocaleDateString('nl-NL'),analysis:currentAnalysis,bron:bronLabel,vragen:currentQuestions.length>0?currentQuestions:null};
   library.unshift(e);jbSave();
   renderSidebarLib();updateXPDisplay();
   showToast('✓ Opgeslagen als '+finalNiveau+(currentQuestions.length>0?' + '+currentQuestions.length+' opgaven':''));
@@ -1312,7 +1317,8 @@ function goToStep3(){
 function quickSave(){
   const lvl=finalNiveau||currentLevel;
   if(!currentText||!lvl){showToast('Analyseer en kies een niveau eerst');return;}
-  const e={id:Date.now(),niveau:lvl,tekst:currentText,titel:currentText.split(/[.!?\n]/)[0].trim().substring(0,72)||'Naamloze tekst',datum:new Date().toLocaleDateString('nl-NL'),analysis:currentAnalysis,bron:'Snel opgeslagen',vragen:currentQuestions.length>0?currentQuestions:null};
+  const _titelValQ=(document.getElementById('titelInput').value||'').trim();
+  const e={id:Date.now(),niveau:lvl,tekst:currentText,titel:_titelValQ||currentText.split(/[.!?\n]/)[0].trim().substring(0,72)||'Naamloze tekst',datum:new Date().toLocaleDateString('nl-NL'),analysis:currentAnalysis,bron:'Snel opgeslagen',vragen:currentQuestions.length>0?currentQuestions:null};
   library.unshift(e);jbSave();
   renderSidebarLib();updateXPDisplay();showToast('✓ Opgeslagen als '+lvl);
 }
@@ -1324,7 +1330,8 @@ function saveWithQuestions(){
   if(existing){existing.vragen=currentQuestions;existing.niveau=lvl;jbSave();renderSidebarLib();showToast('✓ Opgaven bijgewerkt in bibliotheek');}
   else{
     const bronLabel=lleSelectedNiveau?'LLE: '+lleSelectedNiveau+(lleSelectedNiveau!==lvl?' → definitief: '+lvl:''):'AI-analyse';
-    const e={id:Date.now(),niveau:lvl,tekst:currentText,titel:currentText.split(/[.!?\n]/)[0].trim().substring(0,72)||'Naamloze tekst',datum:new Date().toLocaleDateString('nl-NL'),analysis:currentAnalysis,bron:bronLabel,vragen:currentQuestions};
+    const _titelValW=(document.getElementById('titelInput').value||'').trim();
+    const e={id:Date.now(),niveau:lvl,tekst:currentText,titel:_titelValW||currentText.split(/[.!?\n]/)[0].trim().substring(0,72)||'Naamloze tekst',datum:new Date().toLocaleDateString('nl-NL'),analysis:currentAnalysis,bron:bronLabel,vragen:currentQuestions};
     library.unshift(e);jbSave();renderSidebarLib();updateXPDisplay();
     showToast('✓ Opgeslagen met '+currentQuestions.length+' opgaven · '+lvl);
   }
