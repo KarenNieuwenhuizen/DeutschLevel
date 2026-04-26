@@ -794,6 +794,10 @@ footer{margin-top:48px;padding:20px 0;border-top:1px solid var(--border);text-al
     <button class="filter-btn c1" onclick="filterLibPage('C1',this)">C1</button>
     <button class="filter-btn c2" onclick="filterLibPage('C2',this)">C2</button>
   </div>
+  <div style="display:flex;gap:8px;margin-bottom:16px;">
+    <button class="btn-sm" onclick="exportLibrary()" style="background:var(--a1);color:white;border:none;padding:8px 14px;border-radius:6px;cursor:pointer;">⬇️ Exporteer bibliotheek</button>
+    <label class="btn-sm" style="background:var(--surface2);color:var(--fg);border:1px solid var(--border);padding:8px 14px;border-radius:6px;cursor:pointer;">⬆️ Importeer bibliotheek<input type="file" accept=".json" onchange="importLibrary(event)" style="display:none;"></label>
+  </div>
   <div class="lib-grid" id="libGrid"></div>
 </div>
 </div>
@@ -1031,7 +1035,33 @@ async function jbSave(){
   }
   jbSyncing=false;
 }
+function exportLibrary(){
+  const data = JSON.stringify({library:library, deleted:deletedIds}, null, 2);
+  const blob = new Blob([data], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'DeutschLevel_bibliotheek_'+new Date().toISOString().slice(0,10)+'.json';
+  a.click();
+}
 
+async function importLibrary(event){
+  const file = event.target.files[0];
+  if(!file) return;
+  try{
+    const text = await file.text();
+    const data = JSON.parse(text);
+    const imported = Array.isArray(data.library) ? data.library : (Array.isArray(data) ? data : []);
+    const existingIds = new Set(library.map(x=>x.id));
+    const nieuwen = imported.filter(x=>!existingIds.has(x.id));
+    library = [...nieuwen, ...library];
+    await jbSave();
+    renderLibPage();
+    renderSidebarLib();
+    showToast('✓ '+nieuwen.length+' teksten geïmporteerd');
+  }catch(e){
+    showToast('⚠️ Importeren mislukt — controleer het bestand');
+  }
+}
 function jbStartPolling(){
   if(jbSyncTimer)clearInterval(jbSyncTimer);
   jbSyncTimer=setInterval(()=>{if(!jbSyncing)jbLoad();},SYNC_INTERVAL);
