@@ -777,19 +777,19 @@
           "context": "Alinea 1",
           "vraag": "Welke uitspraak past bij alinea 1?",
           "opties": [
-            "A Wir wohnen mit unseren Eltern in einem Haus in der Nähe von München.",
-            "B Ich lese gerne und mag Tiere: Wir haben einen Hund, zwei Katzen und im Garten einen Teich mit Goldfischen.",
-            "C Nach der Schule gehe ich oft mit meinen Freundinnen im Park spazieren, manchmal essen wir ein Eis.",
-            "D Ich bin 15 Jahre alt und habe zwei Geschwister: Meine Schwester heißt Klara und ist 13 Jahre alt, mein Bruder Michael…"
+            "A Nach der Schule gehe ich oft mit meinen Freundinnen im Park spazieren, manchmal essen wir ein Eis.",
+            "B Wir wohnen mit unseren Eltern in einem Haus in der Nähe von München.",
+            "C Ich bin 15 Jahre alt und habe zwei Geschwister: Meine Schwester heißt Klara und ist 13 Jahre alt, mein Bruder Michael…",
+            "D Ich lese gerne und mag Tiere: Wir haben einen Hund, zwei Katzen und im Garten einen Teich mit Goldfischen."
           ],
-          "antwoord": "D",
+          "antwoord": "C",
           "uitleg": "Het correcte antwoord staat in alinea 1 van de tekst."
         },
         {
           "type": "mc",
           "punten": 1,
           "context": "Alinea 1",
-          "vraag": "Wat maakt de tekst duidelijk over alinea 1?",
+          "vraag": "Welke uitspraak past bij alinea 1?",
           "opties": [
             "A Nach der Schule gehe ich oft mit meinen Freundinnen im Park spazieren, manchmal essen wir ein Eis.",
             "B Ich bin 15 Jahre alt und habe zwei Geschwister: Meine Schwester heißt Klara und ist 13 Jahre alt, mein Bruder Michael…",
@@ -803,14 +803,14 @@
           "type": "mc",
           "punten": 1,
           "context": "Alinea 2",
-          "vraag": "Wat maakt de tekst duidelijk over alinea 2?",
+          "vraag": "Welke uitspraak past bij alinea 2?",
           "opties": [
-            "A Ich lese gerne und mag Tiere: Wir haben einen Hund, zwei Katzen und im Garten einen Teich mit Goldfischen.",
-            "B Nach der Schule gehe ich oft mit meinen Freundinnen im Park spazieren, manchmal essen wir ein Eis.",
-            "C Mein Name ist Anna.",
+            "A Nach der Schule gehe ich oft mit meinen Freundinnen im Park spazieren, manchmal essen wir ein Eis.",
+            "B Mein Name ist Anna.",
+            "C Ich lese gerne und mag Tiere: Wir haben einen Hund, zwei Katzen und im Garten einen Teich mit Goldfischen.",
             "D Ich lese gerne und mag Tiere: Wir haben einen Hund, zwei Katzen und im Garten einen Teich mit Goldfischen."
           ],
-          "antwoord": "A",
+          "antwoord": "C",
           "uitleg": "Het correcte antwoord staat in alinea 2 van de tekst."
         },
         {
@@ -839,7 +839,7 @@
           "punten": 1,
           "context": "Alinea 3",
           "vraag": "Citeer de woordgroep uit alinea 3 die overeenkomt met 'de belangrijkste conclusie hier'.",
-          "antwoord": "koche meiner Mutter",
+          "antwoord": "essen Samstag gehen",
           "uitleg": "Deze woordgroep staat letterlijk in alinea 3 van de tekst."
         },
         {
