@@ -1489,17 +1489,29 @@ function getNiveauInstructies(niveau){
 
 // ════ URL IMPORT ════
 function fixEncoding(str){
-  // Fix dubbel-geëncodeerde UTF-8 (Latin-1 → UTF-8 → verkeerd weergegeven)
+  if(!str||typeof str!=='string') return str;
+  // Snelle check: als er geen Ã of Â in zit, is encoding waarschijnlijk al goed
+  if(str.indexOf('Ã')<0 && str.indexOf('Â')<0 && str.indexOf('â€')<0) return str;
+  // Methode 1: decodeURIComponent(escape()) — werkt voor enkelvoudig verkeerd gedecodeerde UTF-8
   try{
-    // Methode 1: decodeURIComponent + escape trick
-    return decodeURIComponent(escape(str));
-  }catch(e){
-    try{
-      // Methode 2: TextDecoder
-      const bytes=new Uint8Array(str.split('').map(c=>c.charCodeAt(0)));
-      return new TextDecoder('utf-8').decode(bytes);
-    }catch(e2){return str;}
-  }
+    var result=decodeURIComponent(escape(str));
+    // Controleer of het beter is (minder Ã-tekens)
+    if(result.indexOf('Ã')<str.indexOf('Ã')||(str.indexOf('Ã')>=0&&result.indexOf('Ã')<0)) return result;
+  }catch(e){}
+  // Methode 2: handmatige vervangingstabel voor meest voorkomende kapotte tekens
+  return str
+    .replace(/Ã¼/g,'ü').replace(/Ã¶/g,'ö').replace(/Ã¤/g,'ä')
+    .replace(/ÃŒ/g,'Ü').replace(/Ã–/g,'Ö').replace(/Ã„/g,'Ä')
+    .replace(/ÃŸ/g,'ß').replace(/Ã©/g,'é').replace(/Ã¨/g,'è')
+    .replace(/Ã /g,'à').replace(/Ã¢/g,'â').replace(/Ãª/g,'ê')
+    .replace(/Ã®/g,'î').replace(/Ã´/g,'ô').replace(/Ã»/g,'û')
+    .replace(/Ã§/g,'ç').replace(/Ã«/g,'ë').replace(/Ã¯/g,'ï')
+    .replace(/Ã±/g,'ñ').replace(/Ã½/g,'ý')
+    .replace(/â€œ/g,'"').replace(/â€/g,'"').replace(/â€™/g,"'")
+    .replace(/â€˜/g,"'").replace(/â€"/g,'–').replace(/â€"/g,'—')
+    .replace(/Â»/g,'»').replace(/Â«/g,'«').replace(/Â·/g,'·')
+    .replace(/âÂÂ/g,'…').replace(/â€¦/g,'…')
+    .replace(/Ã/g,'').replace(/Â/g,'');
 }
 function htmlToText(html){
   // Fix encoding vóór HTML-parsing
