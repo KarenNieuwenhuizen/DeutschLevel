@@ -2261,7 +2261,7 @@ function renderSidebarLib(){
   const filtered=libFilter==='alle'?library:library.filter(e=>e.niveau===libFilter);
   const el=document.getElementById('libList');document.getElementById('libCount').textContent=library.length;
   if(!filtered.length){el.innerHTML='<div class="empty-lib"><span class="empty-icon">'+(library.length?'🔍':'📚')+'</span><p>'+(library.length?'Geen teksten op dit niveau.':'Nog geen teksten opgeslagen.')+'</p></div>';return;}
-  el.innerHTML=filtered.slice(0,4).map(e=>'<div class="text-card" onclick="openModal('+e.id+')"><div class="text-card-top"><h4>'+e.titel+'</h4><span class="mini-badge" style="background:'+LC[e.niveau]+'">'+e.niveau+'</span></div><p>'+e.tekst.substring(0,80)+'…</p><div style="margin-top:4px;font-size:9px;color:var(--muted);display:flex;justify-content:space-between;"><span>'+DIFF_STR[e.niveau]+' <span style="color:#d4a843;font-weight:700;">'+XP_LABELS[e.niveau]+'</span></span>'+(currentMode==='teacher'?'<button onclick="event.stopPropagation();delEntry('+e.id+')" style="background:none;border:none;color:var(--muted);cursor:pointer;font-size:9px;">✕</button>':'')+'</div></div>').join('');
+  el.innerHTML=filtered.slice(0,4).map(e=>'<div class="text-card" onclick="openModal('+e.id+')"><div class="text-card-top"><h4>'+e.titel+'</h4><span class="mini-badge" style="background:'+LC[e.niveau]+'">'+e.niveau+'</span></div><p>'+(function(){var t=e.tekst;try{t=fixEncoding(t);}catch(x){}return t;})().substring(0,80)+'…</p><div style="margin-top:4px;font-size:9px;color:var(--muted);display:flex;justify-content:space-between;"><span>'+DIFF_STR[e.niveau]+' <span style="color:#d4a843;font-weight:700;">'+XP_LABELS[e.niveau]+'</span></span>'+(currentMode==='teacher'?'<button onclick="event.stopPropagation();delEntry('+e.id+')" style="background:none;border:none;color:var(--muted);cursor:pointer;font-size:9px;">✕</button>':'')+'</div></div>').join('');
 }
 function filterLib(lvl,btn){libFilter=lvl;document.querySelectorAll('#view-analyse .lib-filter .filter-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');renderSidebarLib();}
 function delEntry(id){
@@ -2279,7 +2279,7 @@ function renderLibPage(){
   if(q)f=f.filter(e=>e.titel.toLowerCase().includes(q)||e.tekst.toLowerCase().includes(q));
   const g=document.getElementById('libGrid');
   if(!f.length){g.innerHTML='<div class="lib-empty"><span class="empty-icon">📚</span><h3>'+(library.length?'Geen resultaten':'Bibliotheek leeg')+'</h3><p>'+(library.length?'Pas filters aan.':'Docenten kunnen teksten toevoegen via de Analyse pagina.')+'</p></div>';return;}
-  g.innerHTML=f.map(e=>{const xpR=Math.round(10*LEVEL_XP[e.niveau]);return '<div class="lib-card" onclick="openModal('+e.id+')"><div class="lib-card-top"><span class="lib-card-badge" style="background:'+LC[e.niveau]+'">'+e.niveau+' · '+LN[e.niveau]+'</span><h3>'+e.titel+'</h3><p>'+e.tekst.substring(0,150)+'…</p><div style="display:flex;align-items:center;justify-content:space-between;margin-top:8px;"><div class="diff-stars">'+Array.from({length:5},(_,i)=>'<div class="diff-star '+(i<(DIFF_STARS[e.niveau]||1)?'on':'')+'"></div>').join('')+'</div><span class="xp-pill-sm">⚡ Tot +'+(xpR*4)+' XP'+(e.vragen?` · ${e.vragen.length} opgaven`:'')+'</span></div></div><div class="lib-card-bottom"><span class="lib-card-meta">'+e.datum+' · '+(e.tekst.match(/\S+/g)||[]).length+' woorden'+(e.bron?' · '+e.bron:'')+'</span><div class="lib-card-actions"><button onclick="event.stopPropagation();openModal('+e.id+')">📖 Oefenen</button>'+(currentMode==='teacher'?'<button class="del-btn" onclick="event.stopPropagation();delEntry('+e.id+')">🗑</button>':'')+'</div></div></div>';}).join('');
+  g.innerHTML=f.map(e=>{const xpR=Math.round(10*LEVEL_XP[e.niveau]);return '<div class="lib-card" onclick="openModal('+e.id+')"><div class="lib-card-top"><span class="lib-card-badge" style="background:'+LC[e.niveau]+'">'+e.niveau+' · '+LN[e.niveau]+'</span><h3>'+e.titel+'</h3><p>'+(function(){var t=e.tekst;try{t=fixEncoding(t);}catch(x){}return t;})().substring(0,150)+'…</p><div style="display:flex;align-items:center;justify-content:space-between;margin-top:8px;"><div class="diff-stars">'+Array.from({length:5},(_,i)=>'<div class="diff-star '+(i<(DIFF_STARS[e.niveau]||1)?'on':'')+'"></div>').join('')+'</div><span class="xp-pill-sm">⚡ Tot +'+(xpR*4)+' XP'+(e.vragen?` · ${e.vragen.length} opgaven`:'')+'</span></div></div><div class="lib-card-bottom"><span class="lib-card-meta">'+e.datum+' · '+(e.tekst.match(/\S+/g)||[]).length+' woorden'+(e.bron?' · '+e.bron:'')+'</span><div class="lib-card-actions"><button onclick="event.stopPropagation();openModal('+e.id+')">📖 Oefenen</button>'+(currentMode==='teacher'?'<button class="del-btn" onclick="event.stopPropagation();delEntry('+e.id+')">🗑</button>':'')+'</div></div></div>';}).join('');
 }
 function filterLibPage(lvl,btn){libPageFilter=lvl;document.querySelectorAll('#view-bibliotheek .filter-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');renderLibPage();}
 
@@ -2291,8 +2291,9 @@ function openModal(id){
   document.getElementById('modalTitle').textContent=e.titel;
   // Load text with markings
   const body=document.getElementById('modalTextBody');
+  let modalTekst=e.tekst;try{modalTekst=fixEncoding(modalTekst);}catch(ex){}
   if(e.markeringen)body.innerHTML=e.markeringen;
-  else body.innerHTML=e.tekst.split('\n').filter(Boolean).map(p=>'<p>'+p+'</p>').join('');
+  else body.innerHTML=modalTekst.split('\n').filter(Boolean).map(p=>'<p>'+p+'</p>').join('');
   const xpR=Math.round(10*LEVEL_XP[e.niveau]);
   document.getElementById('modalXpInfo').textContent='Niveau '+e.niveau+' · '+DIFF_STR[e.niveau]+' · Verdien tot +'+(xpR*6)+' XP';
   // Load saved questions if any
