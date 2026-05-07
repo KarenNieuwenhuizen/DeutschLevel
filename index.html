@@ -1835,6 +1835,21 @@ var SYNONIEMEN={
   'nur':'lediglich','fast':'nahezu','ganz':'vollständig','wirklich':'tatsächlich',
 };
 
+// ── Kap een zin af op een heel woord, nooit midden in een zin ──
+function kapZin(zin, maxLen){
+  maxLen=maxLen||200;
+  if(!zin||zin.length<=maxLen) return zin;
+  // Probeer af te kappen bij zinsgrens (. ! ?)
+  var zinGrens=zin.lastIndexOf('.',maxLen);
+  if(zinGrens<0) zinGrens=zin.lastIndexOf('!',maxLen);
+  if(zinGrens<0) zinGrens=zin.lastIndexOf('?',maxLen);
+  if(zinGrens>maxLen*0.6) return zin.substring(0,zinGrens+1);
+  // Anders op woordgrens
+  var spatie=zin.lastIndexOf(' ',maxLen);
+  if(spatie>maxLen*0.6) return zin.substring(0,spatie)+'…';
+  return zin.substring(0,maxLen)+'…';
+}
+
 function parafraseer(zin){
   if(!zin||zin.length<10) return zin;
   var woorden=zin.split(/(\s+)/);
@@ -1875,7 +1890,7 @@ function offlineMaakMC(an, ai, niveau, gebruikteZinnen){
 
   // Correct antwoord: geparafraseerde versie van eerste zin
   var bronZin=d.eersteZin.length>20?d.eersteZin:d.langsteZin;
-  if(bronZin.length>120) bronZin=bronZin.substring(0,117)+'…';
+  bronZin=kapZin(bronZin,200);
   var corr=parafraseer(bronZin);
 
   // Afleiders: geparafraseerde zinnen uit ANDERE alinea's
@@ -1886,7 +1901,7 @@ function offlineMaakMC(an, ai, niveau, gebruikteZinnen){
     ad.zinnen.forEach(function(z){
       if(afl.length>=3) return;
       if(z && z.length>15 && gebruikt.indexOf(z)<0){
-        if(z.length>120) z=z.substring(0,117)+'…';
+        z=kapZin(z,200);
         var zPar=parafraseer(z);
         afl.push(zPar);
         gebruikt.push(z);gebruikt.push(zPar);
@@ -1903,7 +1918,7 @@ function offlineMaakMC(an, ai, niveau, gebruikteZinnen){
       var fallbacks=['Dit wordt in de tekst niet vermeld.','De auteur gaat hier niet op in.','Dit staat niet in deze alinea.'];
       zPar=fallbacks[afl.length]||'Geen verdere informatie beschikbaar.';
     }
-    if(zPar.length>120) zPar=zPar.substring(0,117)+'…';
+    zPar=kapZin(zPar,200);
     afl.push(zPar);
     gebruikt.push(zPar);
     zIdx++;
@@ -1929,7 +1944,7 @@ function offlineMaakBewering(an, ai){
   var targets=Math.min(zinnen.length, 4);
   for(var i=0;i<targets;i++){
     var z=zinnen[i]||d.eersteZin;
-    if(z.length>100) z=z.substring(0,97)+'…';
+    z=kapZin(z,200);
     var isWel=(i%2===0); // afwisselend
     var tekst=z;
     if(!isWel){
@@ -2011,9 +2026,9 @@ function offlineMaakOpen(an, ai, gebruikteZinnen){
 
   // Modelantwoord: eerste 1-2 informatieve zinnen
   var ant=(zinnen[0]||d.eersteZin);
-  if(ant.length>150) ant=ant.substring(0,147)+'…';
+  ant=kapZin(ant,250);
   if(pat.p===2&&zinnen[1]){
-    var ant2=zinnen[1]; if(ant2.length>100) ant2=ant2.substring(0,97)+'…';
+    var ant2=zinnen[1]; ant2=kapZin(ant2,250);
     ant+=' '+ant2;
   }
 
@@ -2032,8 +2047,8 @@ function offlineMaakRelatie(an, ai){
   var zinnen=d.zinnen;
   var zA=zinnen[0]||d.eersteZin;
   var zB=zinnen[1]||d.langsteZin;
-  if(zA.length>80) zA=zA.substring(0,77)+'…';
-  if(zB.length>80) zB=zB.substring(0,77)+'…';
+  zA=kapZin(zA,200);
+  zB=kapZin(zB,200);
 
   var relaties=['Beispiel','Gegensatz','Relativierung','Schlussfolgerung','Konkretisierung'];
   var correct=offlineRnd(relaties);
