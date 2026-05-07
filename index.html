@@ -2324,7 +2324,9 @@ function openModal(id){
       Array.from(tmp.querySelectorAll('p')).forEach((p,i)=>{
         if(!p.querySelector('[user-select]')){
           const num=document.createElement('span');
-          num.style.cssText='display:inline-block;min-width:18px;font-size:10px;font-weight:700;color:var(--muted);opacity:0.5;margin-right:6px;vertical-align:top;padding-top:3px;user-select:none;';
+          num.style.cssText='min-width:22px;font-size:11px;font-weight:700;color:#888;background:#f0f0f0;border-radius:4px;padding:1px 4px;margin-top:2px;flex-shrink:0;text-align:center;user-select:none;display:inline-block;margin-right:8px;';
+          num.textContent=i+1;
+          p.style.display='flex';p.style.gap='8px';p.style.alignItems='flex-start';
           num.textContent=i+1;
           p.insertBefore(num,p.firstChild);
         }
@@ -2333,7 +2335,7 @@ function openModal(id){
     }
     body.innerHTML=fixedMark;
   } else {
-    body.innerHTML=e.tekst.split('\n').filter(Boolean).map((p,i)=>'<p><span style="display:inline-block;min-width:18px;font-size:10px;font-weight:700;color:var(--muted);opacity:0.5;margin-right:6px;vertical-align:top;padding-top:3px;user-select:none;">'+(i+1)+'</span>'+p+'</p>').join('');
+    body.innerHTML=e.tekst.split('\n').filter(Boolean).map((p,i)=>'<p style="display:flex;gap:8px;align-items:flex-start;"><span style="min-width:22px;font-size:11px;font-weight:700;color:#888;background:#f0f0f0;border-radius:4px;padding:1px 4px;margin-top:2px;flex-shrink:0;text-align:center;user-select:none;">'+(i+1)+'</span><span>'+p+'</span></p>').join('');
   }
   const xpR=Math.round(10*LEVEL_XP[e.niveau]);
   document.getElementById('modalXpInfo').textContent='Niveau '+e.niveau+' · '+DIFF_STR[e.niveau]+' · Verdien tot +'+(xpR*6)+' XP';
