@@ -33,6 +33,46 @@ let finalNiveau='';
 let currentQuestions=[];
 let libFilter='alle';
 let libPageFilter='alle';
+
+// ════ CONSTANTS ════
+const LC={A1:'#3a7d44',A2:'#5a9e5f',B1:'#2e6da4',B2:'#1a4d7e',C1:'#8b3a8b',C2:'#5c1f5c'};
+const LN={A1:'Beginner',A2:'Elementaire Gebruiker',B1:'Drempelgebruiker',B2:'Zelfstandige Gebruiker',C1:'Gevorderde Gebruiker',C2:'Vaardige Gebruiker'};
+const LD={A1:'Beginner niveau',A2:'Elementair niveau',B1:'Drempel niveau',B2:'Zelfstandig niveau',C1:'Gevorderd niveau',C2:'Vaardig niveau'};
+const LEVEL_XP={A1:1,A2:1.5,B1:2,B2:3,C1:4,C2:5};
+const DIFF_STARS={A1:1,A2:2,B1:3,B2:4,C1:5,C2:5};
+const DIFF_STR={A1:'★☆☆☆☆',A2:'★★☆☆☆',B1:'★★★☆☆',B2:'★★★★☆',C1:'★★★★★',C2:'★★★★★'};
+const XP_LABELS={A1:'+10 XP',A2:'+15 XP',B1:'+20 XP',B2:'+30 XP',C1:'+40 XP',C2:'+50 XP'};
+const PLAYER_LEVELS=[
+  {lv:1,title:'Deutsch-Anfänger',xpNeeded:0},{lv:2,title:'Wortschatz-Sammler',xpNeeded:100},
+  {lv:3,title:'Satzbauzler',xpNeeded:250},{lv:4,title:'Lesereifer',xpNeeded:500},
+  {lv:5,title:'Textkenner',xpNeeded:900},{lv:6,title:'Grammatik-Profi',xpNeeded:1400},
+  {lv:7,title:'B-Niveau Meister',xpNeeded:2100},{lv:8,title:'Aufsatz-Experte',xpNeeded:3000},
+  {lv:9,title:'C-Niveau Held',xpNeeded:4200},{lv:10,title:'Deutsch-Champion',xpNeeded:6000},
+];
+const BADGES=[
+  {id:'eerste_analyse',icon:'🔍',name:'Eerste Analyse',xp:25,condition:s=>s.totalAnalyses>=1},
+  {id:'vijf_teksten',icon:'📚',name:'Boekenwurm',xp:50,condition:s=>s.totalAnalyses>=5},
+  {id:'eerste_vragen',icon:'📝',name:'Vraagsteller',xp:30,condition:s=>s.totalQuestions>=1},
+  {id:'perfectionist',icon:'🎯',name:'Perfectionist',xp:75,condition:s=>s.perfectScores>=1},
+  {id:'b1_level',icon:'⬆️',name:'B1 Bereikt',xp:60,condition:s=>(s.levelsAttempted||[]).includes('B1')},
+  {id:'b2_level',icon:'🚀',name:'B2 Durver',xp:100,condition:s=>(s.levelsAttempted||[]).includes('B2')},
+  {id:'c1_level',icon:'🦅',name:'C1 Atleet',xp:150,condition:s=>(s.levelsAttempted||[]).includes('C1')},
+  {id:'streak3',icon:'🔥',name:'Op Stoom',xp:80,condition:s=>s.maxStreak>=3},
+];
+const DAILY_MISSIONS=[
+  {id:'analyse_today',icon:'🔍',name:'Dagelijkse analyse',desc:'Analyseer 1 tekst',xpReward:20,target:1,key:'analysesToday'},
+  {id:'questions_today',icon:'📝',name:'Oefensessie',desc:'Maak 5 vragen',xpReward:30,target:5,key:'questionsToday'},
+  {id:'hard_text',icon:'💪',name:'Uitdaging!',desc:'Oefen een B2/C1/C2 tekst',xpReward:50,target:1,key:'hardTextToday'},
+];
+const ERK_INFO={
+  A1:{name:'Beginner',de:'Anfänger',can:'Eenvoudige uitdrukkingen en dagelijkse zinnen.',vocab:'~500 woorden',gram:'Tegenwoordige tijd, vnw., enkelvoud/meervoud',ex:'„Ich heiße Anna. Ich komme aus Holland."'},
+  A2:{name:'Elementair',de:'Grundlegende Kenntnisse',can:'Vertrouwde onderwerpen: gezin, winkelen.',vocab:'~1.000 woorden',gram:'Perfekt, modale werkwoorden, Akkusativ/Dativ',ex:'„Am Wochenende bin ich in den Park gegangen."'},
+  B1:{name:'Drempel',de:'Mittelstufe',can:'Hoofdpunten begrijpen van standaard taal.',vocab:'~2.000 woorden',gram:'Konjunktiv II, Relativsätze, Passiv eenvoudig',ex:'„Ich würde gerne wissen, ob es hier ein gutes Restaurant gibt."'},
+  B2:{name:'Zelfstandig',de:'Selbstständige Sprachverwendung',can:'Complexe teksten begrijpen. Vloeiend communiceren.',vocab:'~4.000 woorden',gram:'Konjunktiv I, Nominalisierungen, complexe bijzinnen',ex:'„Die Digitalisierung hat erhebliche Auswirkungen auf den Arbeitsmarkt."'},
+  C1:{name:'Gevorderd',de:'Kompetente Sprachverwendung',can:'Lange, veeleisende teksten en impliciete betekenis.',vocab:'~8.000 woorden',gram:'Partizipialkonstruktionen, Stilistik, Register',ex:'„Die philosophischen Implikationen der Quantenmechanik werfen grundlegende Fragen auf."'},
+  C2:{name:'Vaardig',de:'Beherrschende Sprachverwendung',can:'Vrijwel alles begrijpen en vloeiend communiceren.',vocab:'16.000+ woorden',gram:'Volledig geïntegreerd, nuances, ironie',ex:'„Die subtile Ironie in Kafkas Prosa entfaltet sich erst beim zweiten Lesen vollständig."'},
+};
+
 // ════════════════════════════════════════════════
 </script>
 <style>
@@ -1106,7 +1146,7 @@ let playerGebruikersnaam='';
 function showStudentLogin(){
   document.getElementById('modeCards').style.display='none';
   document.getElementById('studentLoginForm').style.display='block';
-  setTimeout(()=>document.getElementById('inputNaam').focus(),100);
+  setTimeout(()=>{const el=document.getElementById('inputGebruiker');if(el)el.focus();},100);
 }
 function showModeCards(){
   document.getElementById('studentLoginForm').style.display='none';
