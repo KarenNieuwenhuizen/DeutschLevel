@@ -1273,8 +1273,8 @@ function renderLeaderboard(lb){
   lb.sort((a,b)=>b.xp-a.xp);
   const el=document.getElementById('leaderboardList');
   const lbLabel=document.getElementById('lbKlasLabel');
-  const klasLb=lb.filter(e=>e.klas===playerKlas);
-  if(lbLabel) lbLabel.textContent='Klas '+playerKlas+' · '+klasLb.length+' leerlingen';
+  const klasLb=lb;
+  if(lbLabel) lbLabel.textContent='4V & 4H · '+klasLb.length+' leerlingen';
   if(!el) return;
   if(!klasLb.length){el.innerHTML='<p style="font-size:11px;color:var(--muted);text-align:center;padding:8px 0;">Nog geen klasgenoten ingelogd</p>';return;}
   const medals=['🥇','🥈','🥉'];
