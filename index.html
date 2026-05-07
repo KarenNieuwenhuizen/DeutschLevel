@@ -2320,7 +2320,7 @@ function openModal(id){
     let fixedMark=e.markeringen;try{fixedMark=fixEncoding(fixedMark);}catch(ex){}
     body.innerHTML=fixedMark;
   } else {
-    body.innerHTML=e.tekst.split('\n').filter(Boolean).map(p=>'<p>'+p+'</p>').join('');
+    body.innerHTML=e.tekst.split('\n').filter(Boolean).map((p,i)=>'<p><span style="display:inline-block;min-width:18px;font-size:10px;font-weight:700;color:var(--muted);opacity:0.5;margin-right:6px;vertical-align:top;padding-top:3px;user-select:none;">'+(i+1)+'</span>'+p+'</p>').join('');
   }
   const xpR=Math.round(10*LEVEL_XP[e.niveau]);
   document.getElementById('modalXpInfo').textContent='Niveau '+e.niveau+' · '+DIFF_STR[e.niveau]+' · Verdien tot +'+(xpR*6)+' XP';
