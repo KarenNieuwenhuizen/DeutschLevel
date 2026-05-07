@@ -927,81 +927,63 @@
         {
           "type": "mc",
           "punten": 1,
-          "context": "Alinea 1",
-          "vraag": "Was wird aus Absatz 1 deutlich?",
+          "context": "Absatz 1",
+          "vraag": "Was wird aus dem 1. Absatz deutlich?",
           "opties": [
-            "A Ich komme aus Damaskus und lebe heute in Wuppertal in Nordrhein-Westfalen – dazwischen liegt aber eine lange Reise.",
-            "B Ich floh in den Libanon.",
-            "C Als in Syrien im Jahr 2011 der Bürgerkrieg begann, wurde mir klar: In diesem Land gibt es keine Zukunft für mich.",
-            "D Reyad Danhar aus Syrien hat in Deutschland eine bessere Zukunft gesucht – und sie auch gefunden."
+            "A Reyad Danhar aus Syrien hat in Deutschland eine bessere Zukunft gesucht â und sie auch gefunden.",
+            "B Er ist Koch und hat einen Michelin-Stern bekommen.",
+            "C Hier erzählt er seine Geschichte.",
+            "D Reyad Danhar aus Syrien hat in Deutschland eine bessere Zukunft gesucht â und sie auch gefunden."
           ],
-          "antwoord": "D",
-          "uitleg": "Het correcte antwoord staat in alinea 1 van de tekst."
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
           "type": "mc",
           "punten": 1,
-          "context": "Alinea 2",
-          "vraag": "Welke Aussage passt zu Absatz 2?",
+          "context": "Absatz 3",
+          "vraag": "Was wird aus dem 3. Absatz deutlich?",
           "opties": [
-            "A Dort verdiente ich mein Geld als Barista und Fooddesigner.",
-            "B Hier erzählt er seine Geschichte.",
-            "C Ich komme aus Damaskus und lebe heute in Wuppertal in Nordrhein-Westfalen – dazwischen liegt aber eine lange Reise.",
-            "D Er ist Koch und hat einen Michelin-Stern bekommen."
+            "A Ich floh in den Libanon.",
+            "B Dort verdiente ich mein Geld als Barista und Fooddesigner.",
+            "C Doch mit der Zeit wurde es auch dort unsicher.",
+            "D Ich flog nach Brasilien, fand dort aber keine Arbeit."
           ],
-          "antwoord": "C",
-          "uitleg": "Het correcte antwoord staat in alinea 2 van de tekst."
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
           "type": "bewering",
-          "punten": 1,
-          "context": "Alinea 4",
-          "vraag": "Geef van elk van de volgende beweringen aan of deze overeenkomt met alinea 4. Noteer 'wel' of 'niet'.",
+          "punten": 3,
+          "context": "Absatz 5",
+          "vraag": "Geef van elk van de onderstaande beweringen aan of deze wel of niet overeenkomt met alinea 5.\nNoteer 'wel' of 'niet'.",
           "beweringen": [
             {
-              "tekst": "Also reiste ich weiter nach Algerien, Tunesien, Libyen.",
-              "antwoord": "wel"
+              "tekst": "Ich kontaktierte einen Schmuggler, der Boote für die Flucht nach Europa organisierte.",
+              "antwoord": "wel",
+              "alinea": 5
             },
             {
-              "tekst": "Niet: Ich wollte nach Deutschland.…",
-              "antwoord": "niet"
+              "tekst": "Um fünf Uhr morgens begann die Reise.",
+              "antwoord": "niet",
+              "alinea": 5
             },
             {
-              "tekst": "Ein Bekannter hatte dort in den 80er-Jahren gearbeitet und mir viel von der deutschen Mentalität …",
-              "antwoord": "wel"
+              "tekst": "Um mich herum schrien die Babys, Frauen weinten.",
+              "antwoord": "wel",
+              "alinea": 5
             }
           ],
-          "uitleg": "Controleer elk antwoord in alinea 4 van de tekst."
-        },
-        {
-          "type": "citeer",
-          "punten": 1,
-          "context": "Alinea 5",
-          "vraag": "Citeer de woordgroep uit alinea 5 die overeenkomt met 'de hoofdgedachte van de alinea'.",
-          "antwoord": "großes Schiff Frauen",
-          "uitleg": "Deze woordgroep staat letterlijk in alinea 5 van de tekst."
-        },
-        {
-          "type": "mc",
-          "punten": 1,
-          "context": "Alinea 7",
-          "vraag": "Welke Aussage passt zu Absatz 7?",
-          "opties": [
-            "A Zuerst besuchte ich einen Sprachkurs.",
-            "B Also reiste ich weiter nach Algerien, Tunesien, Libyen.",
-            "C Ich flog nach Brasilien, fand dort aber keine Arbeit.",
-            "D Doch mit der Zeit wurde es auch dort unsicher."
-          ],
-          "antwoord": "A",
-          "uitleg": "Het correcte antwoord staat in alinea 7 van de tekst."
+          "antwoord": "",
+          "uitleg": ""
         },
         {
           "type": "open",
-          "punten": 2,
-          "context": "Alinea 8",
-          "vraag": "Om welke reden(en) gaat het in alinea 8? Beantwoord in het Nederlands.",
-          "antwoord": "Ich glaube, dass man erst glücklich mit seinem Leben ist, wenn man etwas Großes erreicht hat. Also stellte ich mir selbst die Aufgabe, einen Michelin-Stern zu bekommen – und ich schaffte es.",
-          "uitleg": "Het antwoord staat in alinea 8 van de tekst."
+          "punten": 1,
+          "context": "Absatz 7",
+          "vraag": "Hoe reageert de auteur in alinea 7? Beantwoord in het Nederlands.",
+          "antwoord": "Zuerst besuchte ich einen Sprachkurs. Weil ich schon immer gerne in der Küche stand, machte ich eine Ausbildung zum Ko.",
+          "uitleg": ""
         }
       ]
     },
@@ -1478,85 +1460,91 @@
         {
           "type": "mc",
           "punten": 1,
-          "context": "Alinea 1",
+          "context": "Absatz 1",
           "vraag": "Was wird aus dem 1. Absatz deutlich?",
           "opties": [
-            "A Er klärte uns darüber auf, dass die Migranten in Springfield, Ohio, Katzen und Hunde und auch sonst allerhand Haustie…",
-            "B Ohne Donald Trump wäre die Welt um einige bahnbrechende Erkenntnisse ärmer.",
-            "C Er fand als Erster heraus, dass Barack Obama nicht in den USA geboren wurde und deshalb wohl auch niemals Präsident d…",
+            "A War das Attentat auf Donald Trump inszeniert?",
+            "B Wer selbst Verschwörungstheorien verbreitet, braucht sich nicht zu wundern, wenn er ihnen zum Opfer fällt.",
+            "C War das Attentat auf Donald Trump inszeniert?",
             "D War das Attentat auf Donald Trump inszeniert?"
           ],
-          "antwoord": "D",
-          "uitleg": "Het correcte antwoord staat in alinea 1 van de tekst."
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
           "type": "bewering",
-          "punten": 1,
-          "context": "Alinea 2",
-          "vraag": "Geef van elk van de volgende beweringen aan of deze overeenkomt met alinea 2. Noteer 'wel' of 'niet'.",
+          "punten": 3,
+          "context": "Absatz 2",
+          "vraag": "Geef van elk van de onderstaande beweringen aan of deze wel of niet overeenkomt met alinea 2.\nNoteer 'wel' of 'niet'.",
           "beweringen": [
             {
               "tekst": "Ohne Donald Trump wäre die Welt um einige bahnbrechende Erkenntnisse ärmer.",
-              "antwoord": "wel"
+              "antwoord": "wel",
+              "alinea": 2
             },
             {
-              "tekst": "Er fand als Erster heraus, dass Barack Obama nicht in den USA geboren wurde und deshalb wohl auch…",
-              "antwoord": "niet"
+              "tekst": "Er fand als Erster heraus, dass Barack Obama nicht in den USA geboren wurde und deshalb wohl auch niemals Präsident der USA hätte werden dürfen.",
+              "antwoord": "niet",
+              "alinea": 2
             },
             {
-              "tekst": "Er klärte uns darüber auf, dass die Migranten in Springfield, Ohio, Katzen und Hunde und auch son…",
-              "antwoord": "wel"
-            },
-            {
-              "tekst": "Dank Trump wissen wir auch, dass Windräder krebserregend sind, was Milliarden Menschen nun die Mö…",
-              "antwoord": "niet"
+              "tekst": "Er klärte uns darüber auf, dass die Migranten in Springfield, Ohio, Katzen und Hunde und auch sonst allerhand Haustiere verspeisen.",
+              "antwoord": "wel",
+              "alinea": 2
             }
           ],
-          "uitleg": "Controleer elk antwoord in alinea 2 van de tekst."
+          "antwoord": "",
+          "uitleg": ""
         },
         {
           "type": "relatie",
           "punten": 1,
-          "context": "Alinea 3",
-          "vraag": "\"Erinnern Sie sich noch, wie im Juli 2024, mitten im US-Wahlkampf in Butler, P…\" (Alinea 3)\nWie verhält sich dieser Satz zu dem vorangehenden Satz?",
+          "context": "Absatz 3",
+          "vraag": "„Erinnern Sie sich noch, wie im Juli 2024, mitten im US-Wahlkampf in Butler, Pennsylvania, auf Donald Trump geschossen wurde?“ (3. Absatz)\nWie verhält sich dieser Satz zu dem vorangehenden Satz?",
           "opties": [
-            "A eine Konkretisierung.",
-            "B ein Gegensatz.",
-            "C eine Relativierung.",
-            "D eine Schlussfolgerung."
+            "A als gegensatz.",
+            "B als steigerung.",
+            "C als schlussfolgerung.",
+            "D als verallgemeinerung."
           ],
-          "antwoord": "D",
-          "uitleg": "Bekijk de relatie tussen de twee zinnen in alinea 3."
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
           "type": "mc",
           "punten": 1,
-          "context": "Alinea 4",
+          "context": "Absatz 4",
           "vraag": "Welche Aussage stimmt mit dem 4. Absatz überein?",
           "opties": [
-            "A Er klärte uns darüber auf, dass die Migranten in Springfield, Ohio, Katzen und Hunde und auch sonst allerhand Haustie…",
-            "B Er fand als Erster heraus, dass Barack Obama nicht in den USA geboren wurde und deshalb wohl auch niemals Präsident d…",
-            "C Wer selbst Verschwörungstheorien verbreitet, braucht sich nicht zu wundern, wenn er ihnen zum Opfer fällt.",
-            "D Alles nur inszeniert?"
+            "A Alles nur inszeniert?",
+            "B Jetzt aber kam raus: Es gab gar kein Attentat, alles war inszeniert.",
+            "C Auf der Aufklärungsplattform X des renommierten Wahrheitsforschers Elon Musk kommt nun die nackte Wahrheit ans Licht.",
+            "D Zum Beispiel in Form einer schonungslosen Ohranalyse."
           ],
-          "antwoord": "D",
-          "uitleg": "Het correcte antwoord staat in alinea 4 van de tekst."
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
-          "type": "citeer",
+          "type": "toon",
           "punten": 1,
-          "context": "Alinea 5",
-          "vraag": "Citeer de woordgroep uit alinea 5 die overeenkomt met 'de kernboodschap van de auteur'.",
-          "antwoord": "Taylor Greene ebenfalls",
-          "uitleg": "Deze woordgroep staat letterlijk in alinea 5 van de tekst."
+          "context": "Absatz 5",
+          "vraag": "„Die Ex-Kongressabgeordnete und Ex-Trump-Unterstützerin Marjorie Taylor Greene hat ebenfalls zur Vernunft gefunden und zweifelt das Attentat nun massiv an.“ (5. Absatz)\nWas spricht aus diesem Satz?",
+          "opties": [
+            "A Staunen",
+            "B Kritik",
+            "C Zuversicht",
+            "D Humor"
+          ],
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
           "type": "open",
-          "punten": 2,
-          "context": "Alinea 6",
-          "vraag": "Om welke reden(en) gaat het in alinea 6? Beantwoord in het Nederlands.",
-          "antwoord": "Damit es auch der letzte Verschwörungspoldi merkt: Keine der bislang in dieser Kolumne verbreiteten Aussagen ist wahr. Alle Äußerungen von Trump sowie alle Äußerungen über Trump sind kompletter Mumpitz.",
-          "uitleg": "Het antwoord staat in alinea 6 van de tekst."
+          "punten": 1,
+          "context": "Absatz 6",
+          "vraag": "Hoe reageert de auteur in alinea 6? Beantwoord in het Nederlands.",
+          "antwoord": "Okay, Schluss jetzt. Damit es auch der letzte Verschwörungspoldi merkt: Keine der bislang in dieser K.",
+          "uitleg": ""
         }
       ]
     },
@@ -3266,90 +3254,85 @@
         {
           "type": "mc",
           "punten": 1,
-          "context": "Absatz 1",
-          "vraag": "Welche Aussage stimmt mit dem 1. Absatz überein?",
+          "context": "Alinea 1",
+          "vraag": "Was wird aus Absatz 1 deutlich?",
           "opties": [
-            "A Schon ihr ganzes Leben lang segelt Mia mit ihren Eltern und Geschwistern um die Welt.",
-            "B Welche Stationen ihr besonders gefielen und warum ein Streit bis zum Sonnenuntergang geschlichtet sein muss, erzählt sie hier.",
-            "C nser Zuhause heißt »Pachamama« – das bedeutet in der Sprache der Inka »Mutter Erde« und ist der Name des Schiffs, auf dem wir leben.",
-            "D Meine Eltern haben vor 25 Jahren die Schweiz verlassen, und unterwegs sind wir zu einer großen Familie geworden."
+            "A Spanien mochte ich besonders, wegen der vielen frischen Früchte und weil überall Eichhörnchen in den Bäumen herumhüpf…",
+            "B Bereits ihr ganzes Alltag lang segelt Mia mit ihren Eltern und Geschwistern um die Welt.",
+            "C Aber am allerliebsten bin ich auf dem Meer.",
+            "D Ich weiß gar nicht mehr, in wie vielen Ländern ich bereits war."
           ],
-          "antwoord": "A",
-          "uitleg": ""
+          "antwoord": "B",
+          "uitleg": "Het correcte antwoord staat in alinea 1 van de tekst."
         },
         {
           "type": "mc",
           "punten": 1,
-          "context": "Absatz 3",
-          "vraag": "Was wird aus dem 3. Absatz deutlich?",
+          "context": "Alinea 3",
+          "vraag": "Was wird aus Absatz 3 deutlich?",
           "opties": [
-            "A Auf der »Pachamama« fühle ich mich wohl, selbst wenn die Wellen hoch sind.",
-            "B Dann spiele ich mit meinem kleinen Bruder Vital unser Lieblingsspiel: Wenn eine große Welle kommt, springen wir im richtigen Moment hoch und lassen uns in die Luft katapultieren.",
-            "C Angst habe ich auf dem Meer eigentlich nie.",
-            "D Mama sagt, die Natur will uns nichts Böses, und das glaube ich auch."
+            "A Bereits ihr ganzes Alltag lang segelt Mia mit ihren Eltern und Geschwistern um die Welt.",
+            "B nser Zuhause heißt »Pachamama« – das bedeutet in der Sprache der Inka »Mutter Erde« und gilt als der Name des Schiffs, auf…",
+            "C Auf der »Pachamama« fühle ich mich wohl, selbst wenn die Wellen hoch gelten als.",
+            "D Welche Stationen ihr besonders gefielen und warum ein Streit bis zum Sonnenuntergang geschlichtet sein muss, erzählt …"
           ],
-          "antwoord": "A",
-          "uitleg": ""
+          "antwoord": "C",
+          "uitleg": "Het correcte antwoord staat in alinea 3 van de tekst."
         },
         {
           "type": "bewering",
-          "punten": 4,
-          "context": "Absatz 5",
-          "vraag": "Geef van elk van de onderstaande beweringen aan of deze wel of niet overeenkomt met alinea 5.\nNoteer 'wel' of 'niet'.",
+          "punten": 1,
+          "context": "Alinea 5",
+          "vraag": "Geef van elk van de volgende beweringen aan of deze overeenkomt met alinea 5. Noteer 'wel' of 'niet'.",
           "beweringen": [
             {
-              "tekst": "Im Internet und in vielen Schulen auf der ganzen Welt berichten wir, wie wir leben und was wir auf unseren Expeditionen beobachten: Die Gletscher schmelzen jedes Jahr ein Stück weiter, der Meeresspiegel steigt, und auf manchen Inseln wird der Platz zum Leben immer knapper.",
-              "antwoord": "wel",
-              "alinea": 5
+              "tekst": "Im Internet und in vielen Schulen auf der ganzen Welt berichten wir, wie wir leben und was wir au…",
+              "antwoord": "wel"
             },
             {
               "tekst": "Aber wir reden nicht nur darüber, wir helfen auch selbst mit.",
-              "antwoord": "niet",
-              "alinea": 5
+              "antwoord": "niet"
             },
             {
-              "tekst": "Wenn wir an Strände kommen, die seit Monaten wahrscheinlich kein Mensch betreten hat, finden wir dort trotzdem überall Plastikmüll.",
-              "antwoord": "wel",
-              "alinea": 5
+              "tekst": "Wenn wir an Strände kommen, die seit Monaten wahrscheinlich kein Mensch betreten hat, finden wir …",
+              "antwoord": "wel"
             },
             {
               "tekst": "Das macht mich traurig.",
-              "antwoord": "niet",
-              "alinea": 5
+              "antwoord": "niet"
             }
           ],
-          "antwoord": "",
-          "uitleg": ""
-        },
-        {
-          "type": "relatie",
-          "punten": 1,
-          "context": "Absatz 7",
-          "vraag": "„Meine Geschwister und ich lernen online mit einem Schulprogramm aus der Schweiz.“ (7. Absatz)\nWie verhält sich dieser Satz zu dem vorangehenden Satz?",
-          "opties": [
-            "A als steigerung.",
-            "B als begründung.",
-            "C als relativierung.",
-            "D als gegensatz."
-          ],
-          "antwoord": "A",
-          "uitleg": ""
+          "uitleg": "Controleer elk antwoord in alinea 5 van de tekst."
         },
         {
           "type": "citeer",
           "punten": 1,
-          "context": "Absatz 9",
-          "vraag": "Citeer de eerste twee woorden van de zin in alinea 9 die de hoofdgedachte weergeeft.",
-          "antwoord": "Weil alle",
-          "uitleg": ""
+          "context": "Alinea 7",
+          "vraag": "Citeer de woordgroep uit alinea 7 die overeenkomt met 'de belangrijkste conclusie hier'.",
+          "antwoord": "ganzes mitgesegelt letzte",
+          "uitleg": "Deze woordgroep staat letterlijk in alinea 7 van de tekst."
+        },
+        {
+          "type": "mc",
+          "punten": 1,
+          "context": "Alinea 9",
+          "vraag": "Welke Aussage passt zu Absatz 9?",
+          "opties": [
+            "A nser Zuhause heißt »Pachamama« – das bedeutet in der Sprache der Inka »Mutter Erde« und gilt als der Name des Schiffs, auf…",
+            "B Weil alle so zahlreich zu tun haben, essen wir lediglich einmal am Tag zusammen.",
+            "C Bereits ihr ganzes Alltag lang segelt Mia mit ihren Eltern und Geschwistern um die Welt.",
+            "D Welche Stationen ihr besonders gefielen und warum ein Streit bis zum Sonnenuntergang geschlichtet sein muss, erzählt …"
+          ],
+          "antwoord": "B",
+          "uitleg": "Het correcte antwoord staat in alinea 9 van de tekst."
         },
         {
           "type": "open",
-          "punten": 2,
-          "context": "Absatz 11",
-          "vraag": "Welke twee redenen worden er in alinea 11 gegeven? Beantwoord in het Nederlands.",
-          "antwoord": "Manchmal streiten wir uns auch. Dann werden wir von Mama und Papa nach vorn zum Anker geschickt, um uns wieder z.",
-          "uitleg": ""
+          "punten": 1,
+          "context": "Alinea 11",
+          "vraag": "Welke informatie geeft de auteur in alinea 11? Beantwoord in het Nederlands.",
+          "antwoord": "Manchmal streiten wir uns auch.",
+          "uitleg": "Het antwoord staat in alinea 11 van de tekst."
         }
       ]
     },
