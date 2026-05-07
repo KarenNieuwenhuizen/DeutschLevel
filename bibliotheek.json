@@ -30,29 +30,29 @@
           "type": "mc",
           "punten": 1,
           "context": "Alinea 1",
-          "vraag": "Welke Aussage passt zu Absatz 1?",
+          "vraag": "Was wird aus Absatz 1 deutlich?",
           "opties": [
-            "A Müffelnde Schuhe an einem schwitzigen Sommertag oder nach dem Joggen?",
-            "B Unsere Haut schwitzt, besonders in Socken und geschlossenen Schuhen.",
-            "C Der Geruch kommt nicht direkt von den Füßen, sondern von Bakterien.",
-            "D Nach dem Sport oder an heißen Tagen riechen manche Füße streng – so stark, dass man sie »Käsefüße« nennt."
+            "A Nach dem Sport oder an heißen Tagen riechen manche Füße streng – so stark, dass man sie »Käsefüße« nennt.",
+            "B Müffelnde Schuhe an einem schwitzigen Sommertag oder nach dem Joggen?",
+            "C Unsere Haut schwitzt, besonders in Socken und geschlossenen Schuhen.",
+            "D Der Geruch kommt nicht direkt von den Füßen, sondern von Bakterien."
           ],
-          "antwoord": "A",
+          "antwoord": "B",
           "uitleg": "Het correcte antwoord staat in alinea 1 van de tekst."
         },
         {
           "type": "mc",
           "punten": 1,
-          "context": "Alinea 2",
-          "vraag": "Welke Aussage passt zu Absatz 2?",
+          "context": "Alinea 1",
+          "vraag": "Welke Aussage passt zu Absatz 1?",
           "opties": [
-            "A Die zersetzen abgestorbene Haut­zellen und Schweiß.",
-            "B Dort wird es dann warm und feucht – ein perfekter Ort für Bakterien.",
-            "C Nach dem Sport oder an heißen Tagen riechen manche Füße streng – so stark, dass man sie »Käsefüße« nennt.",
-            "D Was genau dort stinkt und wie sich der Geruch stoppen lässt, erklärt DEIN SPIEGEL."
+            "A Dort wird es dann warm und feucht – ein perfekter Ort für Bakterien.",
+            "B Dabei bilden sie Stoffe wie Isovaleriansäure und Methanthiol, die genauso stinken wie gewisse Käsesorten.",
+            "C Die zersetzen abgestorbene Haut­zellen und Schweiß.",
+            "D Müffelnde Schuhe an einem schwitzigen Sommertag oder nach dem Joggen?"
           ],
-          "antwoord": "C",
-          "uitleg": "Het correcte antwoord staat in alinea 2 van de tekst."
+          "antwoord": "D",
+          "uitleg": "Het correcte antwoord staat in alinea 1 van de tekst."
         },
         {
           "type": "bewering",
@@ -75,30 +75,30 @@
           "type": "citeer",
           "punten": 1,
           "context": "Alinea 3",
-          "vraag": "Citeer de woordgroep uit alinea 3 die overeenkomt met 'de samenvatting van dit deel'.",
-          "antwoord": "Bakterien zersetzen abgestorbene",
+          "vraag": "Citeer de woordgroep uit alinea 3 die overeenkomt met 'wat de auteur hiermee bedoelt'.",
+          "antwoord": "genauso stinken gewisse",
           "uitleg": "Deze woordgroep staat letterlijk in alinea 3 van de tekst."
         },
         {
           "type": "mc",
           "punten": 1,
           "context": "Alinea 3",
-          "vraag": "Was wird aus Absatz 3 deutlich?",
+          "vraag": "Welke Aussage passt zu Absatz 3?",
           "opties": [
-            "A Dann bleibt der Käse­geruch beim Käse im Kühlschrank.",
-            "B Zum Glück kann man ganz einfach etwas gegen den Gestank tun: Füße waschen, gut abtrocknen, frische Socken anziehen un…",
-            "C Unsere Haut schwitzt, besonders in Socken und geschlossenen Schuhen.",
-            "D Wer mehr schwitzt, häufig Schuhe aus Kunststoffen trägt oder die Füße selten wäscht, gibt den Bakterien extraviel Fut…"
+            "A Unsere Haut schwitzt, besonders in Socken und geschlossenen Schuhen.",
+            "B Was genau dort stinkt und wie sich der Geruch stoppen lässt, erklärt DEIN SPIEGEL.",
+            "C Wer mehr schwitzt, häufig Schuhe aus Kunststoffen trägt oder die Füße selten wäscht, gibt den Bakterien extraviel Fut…",
+            "D Zum Glück kann man ganz einfach etwas gegen den Gestank tun: Füße waschen, gut abtrocknen, frische Socken anziehen un…"
           ],
-          "antwoord": "C",
+          "antwoord": "A",
           "uitleg": "Het correcte antwoord staat in alinea 3 van de tekst."
         },
         {
           "type": "open",
-          "punten": 1,
+          "punten": 2,
           "context": "Alinea 4",
-          "vraag": "Wat wordt duidelijk uit alinea 4? Beantwoord in het Nederlands.",
-          "antwoord": "Wer mehr schwitzt, häufig Schuhe aus Kunststoffen trägt oder die Füße selten wäscht, gibt den Bakterien extraviel Futter.",
+          "vraag": "Om welke reden(en) gaat het in alinea 4? Beantwoord in het Nederlands.",
+          "antwoord": "Wer mehr schwitzt, häufig Schuhe aus Kunststoffen trägt oder die Füße selten wäscht, gibt den Bakterien extraviel Futter. Zum Glück kann man ganz einfach etwas gegen den Gestank tun: Füße waschen, gut abtrocknen, frisch…",
           "uitleg": "Het antwoord staat in alinea 4 van de tekst."
         }
       ],
