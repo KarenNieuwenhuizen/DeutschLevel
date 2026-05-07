@@ -27,82 +27,31 @@
       "bron": "LLE: A2",
       "vragen": [
         {
-          "type": "mc",
-          "punten": 1,
+          "type": "open",
+          "punten": 2,
           "context": "Alinea 1",
-          "vraag": "Welke Aussage passt zu Absatz 1?",
-          "opties": [
-            "A Der Geruch stammt nicht direkt von den Füßen, sondern von Bakterien.",
-            "B Unsere Haut schwitzt, besonders in Socken und geschlossenen Schuhen.",
-            "C Müffelnde Schuhe an einem schwitzigen Sommertag oder nach dem Joggen?",
-            "D Nach dem Sport oder an heißen Tagen riechen manche Füße streng – so stark, dass man sie »Käsefüße« nennt."
-          ],
-          "antwoord": "C",
-          "uitleg": "Het correcte antwoord staat in alinea 1 van de tekst."
-        },
-        {
-          "type": "mc",
-          "punten": 1,
-          "context": "Alinea 2",
-          "vraag": "Was wird aus Absatz 2 deutlich?",
-          "opties": [
-            "A Was genau dort stinkt und wie sich der Geruch stoppen lässt, beschreibt DEIN SPIEGEL.",
-            "B Dort soll es dann warm und feucht – ein perfekter Ort für Bakterien.",
-            "C Die zersetzen abgestorbene Haut­zellen und Schweiß.",
-            "D Nach dem Sport oder an heißen Tagen riechen manche Füße streng – so stark, dass man sie »Käsefüße« nennt."
-          ],
-          "antwoord": "D",
-          "uitleg": "Het correcte antwoord staat in alinea 2 van de tekst."
-        },
-        {
-          "type": "bewering",
-          "punten": 1,
-          "context": "Alinea 2",
-          "vraag": "Geef van elk van de volgende beweringen aan of deze overeenkomt met alinea 2. Noteer 'wel' of 'niet'.",
-          "beweringen": [
-            {
-              "tekst": "Nach dem Sport oder an heißen Tagen riechen manche Füße streng – so stark, dass man sie »Käsefüße« nennt.",
-              "antwoord": "wel"
-            },
-            {
-              "tekst": "Der Geruch kommt nicht direkt von den Füßen, sondern von Bakterien.",
-              "antwoord": "niet"
-            }
-          ],
-          "uitleg": "Controleer elk antwoord in alinea 2 van de tekst."
-        },
-        {
-          "type": "citeer",
-          "punten": 1,
-          "context": "Alinea 3",
-          "vraag": "Citeer de woordgroep uit alinea 3 die overeenkomt met 'wat de auteur hiermee bedoelt'.",
-          "antwoord": "sogar ähnliche Bakterien",
-          "uitleg": "Deze woordgroep staat letterlijk in alinea 3 van de tekst."
-        },
-        {
-          "type": "mc",
-          "punten": 1,
-          "context": "Alinea 3",
-          "vraag": "Was wird aus Absatz 3 deutlich?",
-          "opties": [
-            "A Unsere Haut schwitzt, besonders in Socken und geschlossenen Schuhen.",
-            "B Was genau dort stinkt und wie sich der Geruch stoppen lässt, beschreibt DEIN SPIEGEL.",
-            "C Der Geruch stammt nicht direkt von den Füßen, sondern von Bakterien.",
-            "D Wer mehr schwitzt, häufig Schuhe aus Kunststoffen trägt oder die Füße selten wäscht, bietet den Bakterien extraviel Futter."
-          ],
-          "antwoord": "A",
-          "uitleg": "Het correcte antwoord staat in alinea 3 van de tekst."
+          "vraag": "Wat wordt duidelijk uit de eerste alinea?",
+          "antwoord": "Klik op \"Analyseer & genereer\" om echte vragen te genereren op basis van de tekst.",
+          "uitleg": ""
         },
         {
           "type": "open",
-          "punten": 1,
-          "context": "Alinea 4",
-          "vraag": "Wat wordt duidelijk uit alinea 4? Beantwoord in het Nederlands.",
-          "antwoord": "Wer mehr schwitzt, häufig Schuhe aus Kunststoffen trägt oder die Füße selten wäscht, gibt den Bakterien extraviel Futter.",
-          "uitleg": "Het antwoord staat in alinea 4 van de tekst."
+          "punten": 2,
+          "context": "Alinea 2",
+          "vraag": "Wat noemt de auteur in alinea 2?",
+          "antwoord": "Klik op \"Analyseer & genereer\" om echte vragen te genereren op basis van de tekst.",
+          "uitleg": ""
+        },
+        {
+          "type": "open",
+          "punten": 3,
+          "context": "Hele tekst",
+          "vraag": "Wat is de hoofdgedachte van de tekst?",
+          "antwoord": "Klik op \"Analyseer & genereer\" om echte vragen te genereren op basis van de tekst.",
+          "uitleg": ""
         }
       ],
-      "markeringen": "<p>Müffelnde Schuhe an einem schwitzigen Sommertag oder nach dem Joggen? Was genau dort stinkt und wie sich der Geruch stoppen lässt, erklärt DEIN SPIEGEL.</p><p>Nach dem Sport oder an heißen Tagen riechen manche Füße streng – so stark, dass man sie »Käsefüße« nennt. Der Geruch kommt nicht direkt von den Füßen, sondern von Bakterien.</p><p>Unsere Haut schwitzt, besonders in Socken und geschlossenen Schuhen. Dort wird es dann warm und feucht – ein perfekter Ort für Bakterien. Die zersetzen abgestorbene Haut­zellen und Schweiß. Dabei bilden sie Stoffe wie Isovaleriansäure und Methanthiol, die genauso stinken wie gewisse Käsesorten. Oft sind es sogar ähnliche Bakterien, Milchsäurebakterien nämlich.</p><p>Wer mehr schwitzt, häufig Schuhe aus Kunststoffen trägt oder die Füße selten wäscht, gibt den Bakterien extraviel Futter. Zum Glück kann man ganz einfach etwas gegen den Gestank tun: Füße waschen, gut abtrocknen, frische Socken anziehen und Schuhe regelmäßig lüften. Dann bleibt der Käse­geruch beim Käse im Kühlschrank.</p>"
+      "markeringen": "<p><mark class=\"hl-yellow\">Müffelnde Schuhe an einem schwitzigen Sommertag oder nach dem Joggen? Was genau dort stinkt und wie sich der Geruch stoppen lässt, erklärt DEIN SPIEGEL.</mark></p><p>Nach dem Sport oder an heißen Tagen riechen manche Füße streng – so stark, dass man sie »Käsefüße« nennt. Der Geruch kommt nicht direkt von den Füßen, sondern von Bakterien.</p><p>Unsere Haut schwitzt, besonders in Socken und geschlossenen Schuhen. Dort wird es dann warm und feucht – ein perfekter Ort für Bakterien. Die zersetzen abgestorbene Haut­zellen und Schweiß. Dabei bilden sie Stoffe wie Isovaleriansäure und Methanthiol, die genauso stinken wie gewisse Käsesorten. Oft sind es sogar ähnliche Bakterien, Milchsäurebakterien nämlich.</p><p>Wer mehr schwitzt, häufig Schuhe aus Kunststoffen trägt oder die Füße selten wäscht, gibt den Bakterien extraviel Futter. Zum Glück kann man ganz einfach etwas gegen den Gestank tun: Füße waschen, gut abtrocknen, frische Socken anziehen und Schuhe regelmäßig lüften. Dann bleibt der Käse­geruch beim Käse im Kühlschrank.</p>"
     },
     {
       "id": 1777802796929,
@@ -133,85 +82,85 @@
         {
           "type": "mc",
           "punten": 1,
-          "context": "Alinea 1",
-          "vraag": "Was wird aus Absatz 1 deutlich?",
+          "context": "Absatz 1",
+          "vraag": "Was wird aus dem 1. Absatz deutlich?",
           "opties": [
-            "A Schröder: Ich halte das für falsch.",
-            "B Was denkst du darüber?",
-            "C DEIN SPIEGEL: Viele Personen denken, dass man riesengroß sein muss, um im Basketball erfolgreich zu sollen.",
-            "D Dennis Schröder gilt als der Kapitän der Basketball-Nationalmannschaft."
+            "A Dennis Schröder ist der Kapitän der Basketball-Nationalmannschaft.",
+            "B Mit Adrian, 12 Jahre alt, und Fabian, 13, sprach er über seine Heimatstadt Braunschweig, Skateboardfahren und die anstehende Europameisterschaft.",
+            "C Dennis Schröder ist der Kapitän der Basketball-Nationalmannschaft.",
+            "D Dennis Schröder ist der Kapitän der Basketball-Nationalmannschaft."
           ],
-          "antwoord": "D",
-          "uitleg": "Het correcte antwoord staat in alinea 1 van de tekst."
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
           "type": "mc",
           "punten": 1,
-          "context": "Alinea 4",
-          "vraag": "Welke Aussage passt zu Absatz 4?",
+          "context": "Absatz 4",
+          "vraag": "Welche Aussage stimmt mit dem 4. Absatz überein?",
           "opties": [
-            "A DEIN SPIEGEL: Viele Personen denken, dass man riesengroß sein muss, um im Basketball erfolgreich zu sollen.",
-            "B DEIN SPIEGEL: Fällt es dir schwer, mit Niederlagen umzugehen?",
-            "C Dennis Schröder gilt als der Kapitän der Basketball-Nationalmannschaft.",
-            "D Mit Adrian, 12 Jahre erfahren, und Fabian, 13, sprach er über seine Heimatstadt Braunschweig, Skateboardfahren und die anstehende Europameisterschaft."
+            "A DEIN SPIEGEL: Fällt es dir schwer, mit Niederlagen umzugehen?",
+            "B Schröder: Mittlerweile nicht mehr.",
+            "C Früher war das anders, da war ich ein ziemlicher Hitzkopf.",
+            "D Als Kind habe ich oft geweint oder war wütend, wenn ich ein Basketballspiel verloren habe."
           ],
-          "antwoord": "B",
-          "uitleg": "Het correcte antwoord staat in alinea 4 van de tekst."
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
           "type": "bewering",
-          "punten": 1,
-          "context": "Alinea 8",
-          "vraag": "Geef van elk van de volgende beweringen aan of deze overeenkomt met alinea 8. Noteer 'wel' of 'niet'.",
+          "punten": 3,
+          "context": "Absatz 8",
+          "vraag": "Geef van elk van de onderstaande beweringen aan of deze wel of niet overeenkomt met alinea 8.\nNoteer 'wel' of 'niet'.",
           "beweringen": [
             {
               "tekst": "DEIN SPIEGEL: Wie findest du es, dass Basketballer in der NBA kaum mitbestimmen können, bei welchem Team sie spielen?",
-              "antwoord": "wel"
+              "antwoord": "wel",
+              "alinea": 8
             },
             {
               "tekst": "Schröder: Das ist das Einzige, was mir an der Liga nicht so gut gefällt.",
-              "antwoord": "niet"
+              "antwoord": "niet",
+              "alinea": 8
             },
             {
               "tekst": "Die Teams können mit uns Spielern machen, was sie wollen.",
-              "antwoord": "wel"
-            },
-            {
-              "tekst": "Da kann es schon mal passieren, dass du aus dem Nichts mit einem Spieler eines anderen Teams getradet wirst.",
-              "antwoord": "niet"
+              "antwoord": "wel",
+              "alinea": 8
             }
           ],
-          "uitleg": "Controleer elk antwoord in alinea 8 van de tekst."
+          "antwoord": "",
+          "uitleg": ""
+        },
+        {
+          "type": "relatie",
+          "punten": 1,
+          "context": "Absatz 12",
+          "vraag": "„Ich bin als dunkelhäutiger Junge in Braunschweig aufgewachsen.“ (12. Absatz)\nWie verhält sich dieser Satz zu dem vorangehenden Satz?",
+          "opties": [
+            "A als konkretisierung.",
+            "B als beispiel.",
+            "C als gegensatz.",
+            "D als schlussfolgerung."
+          ],
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
           "type": "citeer",
           "punten": 1,
-          "context": "Alinea 12",
-          "vraag": "Citeer de woordgroep uit alinea 12 die overeenkomt met 'wat de auteur hiermee bedoelt'.",
-          "antwoord": "Schröder glaube meine",
-          "uitleg": "Deze woordgroep staat letterlijk in alinea 12 van de tekst."
-        },
-        {
-          "type": "mc",
-          "punten": 1,
-          "context": "Alinea 15",
-          "vraag": "Welke Aussage passt zu Absatz 15?",
-          "opties": [
-            "A Mit Adrian, 12 Jahre erfahren, und Fabian, 13, sprach er über seine Heimatstadt Braunschweig, Skateboardfahren und die anstehende Europameisterschaft.",
-            "B Dennis Schröder gilt als der Kapitän der Basketball-Nationalmannschaft.",
-            "C DEIN SPIEGEL: Was gefällt dir so positiv am Skaten?",
-            "D DEIN SPIEGEL: Viele Personen denken, dass man riesengroß sein muss, um im Basketball erfolgreich zu sollen."
-          ],
-          "antwoord": "C",
-          "uitleg": "Het correcte antwoord staat in alinea 15 van de tekst."
+          "context": "Absatz 15",
+          "vraag": "Citeer de eerste twee woorden van de zin in alinea 15 die de hoofdgedachte weergeeft.",
+          "antwoord": "Und sie",
+          "uitleg": ""
         },
         {
           "type": "open",
           "punten": 1,
-          "context": "Alinea 19",
-          "vraag": "Wat wordt duidelijk uit alinea 19? Beantwoord in het Nederlands.",
-          "antwoord": "DEIN SPIEGEL: Bei der Eröffnungsfeier der Olympischen Spiele warst du Fahnenträger.",
-          "uitleg": "Het antwoord staat in alinea 19 van de tekst."
+          "context": "Absatz 19",
+          "vraag": "Hoe reageert de auteur in alinea 19? Beantwoord in het Nederlands.",
+          "antwoord": "DEIN SPIEGEL: Bei der Eröffnungsfeier der Olympischen Spiele warst du Fahnenträger. Wie hat sich das angefühlt?.",
+          "uitleg": ""
         }
       ]
     },
@@ -244,85 +193,90 @@
         {
           "type": "mc",
           "punten": 1,
-          "context": "Alinea 1",
+          "context": "Absatz 1",
           "vraag": "Welche Aussage stimmt mit dem 1. Absatz überein?",
           "opties": [
             "A Hannes Heuschneider befestigt Hufeisen an Pferdefüßen.",
-            "B Die Videos haben ihm seine Kundinnen und Kunden zugeschickt.",
-            "C anchmal setzt sich Hannes Heuschneider, 58, am Abend vor den Computer und schaut ein paar Videos an.",
-            "D Nein, keine Filme, keine Serien: Hannes guckt zu, wie Pferde laufen."
+            "B Den Tieren hilft er mit kleinen Tricks dabei, dass die Hufe gesund bleiben oder dass Verletzungen heilen.",
+            "C Hannes Heuschneider befestigt Hufeisen an Pferdefüßen.",
+            "D Hannes Heuschneider befestigt Hufeisen an Pferdefüßen."
           ],
           "antwoord": "A",
-          "uitleg": "Het correcte antwoord staat in alinea 1 van de tekst."
-        },
-        {
-          "type": "bewering",
-          "punten": 1,
-          "context": "Alinea 2",
-          "vraag": "Geef van elk van de volgende beweringen aan of deze overeenkomt met alinea 2. Noteer 'wel' of 'niet'.",
-          "beweringen": [
-            {
-              "tekst": "anchmal setzt sich Hannes Heuschneider, 58, am Abend vor den Computer und schaut ein paar Videos an.",
-              "antwoord": "wel"
-            },
-            {
-              "tekst": "Niet: Nein, keine Filme, keine Serien: Hannes guckt zu, wie Pferdeâ¦",
-              "antwoord": "niet"
-            },
-            {
-              "tekst": "Die Videos haben ihm seine Kundinnen und Kunden zugeschickt.",
-              "antwoord": "wel"
-            },
-            {
-              "tekst": "Niet: Immer wieder betrachtet der Hufschmied in Zeitlupe, wie langâ¦",
-              "antwoord": "niet"
-            }
-          ],
-          "uitleg": "Controleer elk antwoord in alinea 2 van de tekst."
+          "uitleg": ""
         },
         {
           "type": "mc",
           "punten": 1,
-          "context": "Alinea 4",
-          "vraag": "Was ist die Kernaussage des 4. Absatzes?",
+          "context": "Absatz 2",
+          "vraag": "Was wird aus dem 2. Absatz deutlich?",
           "opties": [
-            "A Immer wieder betrachtet der Hufschmied in Zeitlupe, wie lang die Schritte der Pferde sind, wie ihre Hufe auf dem Bodeâ¦",
-            "B Den Tieren hilft er mit kleinen Tricks dabei, dass die Hufe gesund bleiben oder dass Verletzungen heilen.",
-            "C Asfaloth, Aragon, Sally und Sinfonie warten in einem kahlen Raum im Gestüt auf Hannes.",
-            "D »Ich brauche kein Röntgenbild, um zu sehen, wenn etwas im Bewegungsablauf nicht passt«, sagt er."
+            "A anchmal setzt sich Hannes Heuschneider, 58, am Abend vor den Computer und schaut ein paar Videos an.",
+            "B Nein, keine Filme, keine Serien: Hannes guckt zu, wie Pferde laufen.",
+            "C Die Videos haben ihm seine Kundinnen und Kunden zugeschickt.",
+            "D Immer wieder betrachtet der Hufschmied in Zeitlupe, wie lang die Schritte der Pferde sind, wie ihre Hufe auf dem Boden aufsetzen, wie das Bein sich zum nächsten Schritt abdrückt."
           ],
-          "antwoord": "C",
-          "uitleg": "Het correcte antwoord staat in alinea 4 van de tekst."
+          "antwoord": "A",
+          "uitleg": ""
+        },
+        {
+          "type": "bewering",
+          "punten": 4,
+          "context": "Absatz 4",
+          "vraag": "Geef van elk van de onderstaande beweringen aan of deze wel of niet overeenkomt met alinea 4.\nNoteer 'wel' of 'niet'.",
+          "beweringen": [
+            {
+              "tekst": "Asfaloth, Aragon, Sally und Sinfonie warten in einem kahlen Raum im Gestüt auf Hannes.",
+              "antwoord": "wel",
+              "alinea": 4
+            },
+            {
+              "tekst": "Die vier Pferde stehen ruhig da.",
+              "antwoord": "niet",
+              "alinea": 4
+            },
+            {
+              "tekst": "Es ist warm und riecht nach Pferdeschweiß.",
+              "antwoord": "wel",
+              "alinea": 4
+            },
+            {
+              "tekst": "Oben in den Ecken des Raums hängen Schwalbennester, deren piepsende Insassen im Minutentakt von ihren Eltern mit Insekten versorgt werden.",
+              "antwoord": "niet",
+              "alinea": 4
+            }
+          ],
+          "antwoord": "",
+          "uitleg": ""
+        },
+        {
+          "type": "relatie",
+          "punten": 1,
+          "context": "Absatz 6",
+          "vraag": "„Alle sechs Wochen sollten die Tiere zur »Pferde-Fußpflege«.“ (6. Absatz)\nWie verhält sich dieser Satz zu dem vorangehenden Satz?",
+          "opties": [
+            "A als beispiel.",
+            "B als relativierung.",
+            "C als verallgemeinerung.",
+            "D als widerlegung."
+          ],
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
           "type": "citeer",
           "punten": 1,
-          "context": "Alinea 6",
-          "vraag": "Citeer de woordgroep uit alinea 6 die overeenkomt met 'de samenvatting van dit deel'.",
-          "antwoord": "seitdem beschlagen sechs",
-          "uitleg": "Deze woordgroep staat letterlijk in alinea 6 van de tekst."
+          "context": "Absatz 7",
+          "vraag": "Citeer de eerste twee woorden van de zin in alinea 7 die de hoofdgedachte weergeeft.",
+          "antwoord": "Hufschmied Hannes",
+          "uitleg": ""
         },
         {
           "type": "open",
           "punten": 1,
-          "context": "Alinea 7",
-          "vraag": "Wat wordt duidelijk uit alinea 7? Beantwoord in het Nederlands.",
-          "antwoord": "Hufschmied Hannes Heuschneider mit Pferdebesitzer André Kühn auf einem Gestüt in Landshut",
-          "uitleg": "Het antwoord staat in alinea 7 van de tekst."
-        },
-        {
-          "type": "mc",
-          "punten": 1,
-          "context": "Alinea 9",
-          "vraag": "Welche Aussage stimmt mit dem 9. Absatz überein?",
-          "opties": [
-            "A Immer wieder betrachtet der Hufschmied in Zeitlupe, wie lang die Schritte der Pferde sind, wie ihre Hufe auf dem Bodeâ¦",
-            "B Hannes ist Hufschmied.",
-            "C Um den Nutztieren Schmerzen zu ersparen und sie einsatzfähiger zu machen, versuchen die Menschen seit mehreren Tausen…",
-            "D »Ich erkenne recht schnell, wenn das Pferd Schmerzen hat oder da noch eine Verletzung ist, die noch nicht ausgeheilt …"
-          ],
-          "antwoord": "C",
-          "uitleg": "Het correcte antwoord staat in alinea 9 van de tekst."
+          "context": "Absatz 9",
+          "vraag": "Wat wordt duidelijk uit alinea 9? Beantwoord in het Nederlands.",
+          "antwoord": "Um den Nutztieren Schmerzen zu ersparen und sie einsatzfähiger zu machen, versuchen die Menschen seit mehreren Tausend Jahren, die Hufe zu schützen. Im alten Griechenland und im Römischen Reich flocht man eine Art Socken aus Gräs.",
+          "uitleg": ""
         }
       ]
     },
@@ -466,85 +420,96 @@
         {
           "type": "mc",
           "punten": 1,
-          "context": "Alinea 1",
-          "vraag": "Was kann man aus dem 1. Absatz schließen?",
+          "context": "Absatz 1",
+          "vraag": "Welche Aussage stimmt mit dem 1. Absatz überein?",
           "opties": [
-            "A Müde war er, unkonzentriert und matt vom langen Stehen in einer Konditorei nahe der syrischen Ort Idlib.",
-            "B Unter Assad gilt als Syrien zum Narco-Staat geworden: Mit der Droge Captagon finanzierte er seinen Krieg gegen das eigene Volk.",
-            "C An seine erste Pille ist in der Lage sich Abdulrahim genau erinnern.",
-            "D Ein Kollege habe ihm eine kleine weiße Tablette in die Hand gedrückt: „Schluck!"
+            "A Unter Assad ist Syrien zum Narco-Staat geworden: Mit der Droge Captagon finanzierte er seinen Krieg gegen das eigene Volk.",
+            "B Nun ist der Diktator weg, geblieben ist die Sucht.",
+            "C Unter Assad ist Syrien zum Narco-Staat geworden: Mit der Droge Captagon finanzierte er seinen Krieg gegen das eigene Volk.",
+            "D Unter Assad ist Syrien zum Narco-Staat geworden: Mit der Droge Captagon finanzierte er seinen Krieg gegen das eigene Volk."
           ],
-          "antwoord": "B",
-          "uitleg": "Het correcte antwoord staat in alinea 1 van de tekst."
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
           "type": "bewering",
-          "punten": 1,
-          "context": "Alinea 4",
-          "vraag": "Geef van elk van de volgende beweringen aan of deze overeenkomt met alinea 4. Noteer 'wel' of 'niet'.",
+          "punten": 4,
+          "context": "Absatz 4",
+          "vraag": "Geef van elk van de onderstaande beweringen aan of deze wel of niet overeenkomt met alinea 4.\nNoteer 'wel' of 'niet'.",
           "beweringen": [
             {
               "tekst": "Aus dem Muntermacher wurde für Abdulrahim ein ständiger Begleiter.",
-              "antwoord": "wel"
+              "antwoord": "wel",
+              "alinea": 4
             },
             {
               "tekst": "Er war häufig krank, reizbar, unberechenbar.",
-              "antwoord": "niet"
+              "antwoord": "niet",
+              "alinea": 4
             },
             {
               "tekst": "Manchmal habe ihn die Wut so mitgerissen, erzählt er, dass er seinen kleinen Bruder schlug.",
-              "antwoord": "wel"
+              "antwoord": "wel",
+              "alinea": 4
             },
             {
               "tekst": "Spätestens da habe auch seine Familie gespürt, dass etwas nicht stimmte.",
-              "antwoord": "niet"
+              "antwoord": "niet",
+              "alinea": 4
             }
           ],
-          "uitleg": "Controleer elk antwoord in alinea 4 van de tekst."
+          "antwoord": "",
+          "uitleg": ""
         },
         {
           "type": "relatie",
           "punten": 1,
-          "context": "Alinea 8",
-          "vraag": "\"Es lieferte Captagon als Aufputschmittel in Kriegsgebiete im Nahen und Mittleren Osten oder in Nordafrika.\" (Alinea 8)\nWie verhält sich dieser Satz zu dem vorangehenden Satz?",
+          "context": "Absatz 8",
+          "vraag": "„Es lieferte Captagon als Aufputschmittel in Kriegsgebiete im Nahen und Mittleren Osten oder in Nordafrika.“ (8. Absatz)\nWie verhält sich dieser Satz zu dem vorangehenden Satz?",
           "opties": [
-            "A ein Gegensatz.",
-            "B eine Konkretisierung.",
-            "C eine Schlussfolgerung.",
-            "D ein Beispiel."
+            "A als begründung.",
+            "B als relativierung.",
+            "C als beispiel.",
+            "D als konkretisierung."
           ],
           "antwoord": "A",
-          "uitleg": "Bekijk de relatie tussen de twee zinnen in alinea 8."
+          "uitleg": ""
         },
         {
           "type": "mc",
           "punten": 1,
-          "context": "Alinea 11",
+          "context": "Absatz 11",
           "vraag": "Was wird aus dem 11. Absatz deutlich?",
           "opties": [
-            "A An seine erste Pille ist in der Lage sich Abdulrahim genau erinnern.",
-            "B „Ein großes Herausforderung gilt als, dass es in Syrien an Fachpersonal fehlt“, sagt Abdelrahman Joukhadar, der als Arzt im Hope Center arbeitet.",
-            "C Nun gilt als der Diktator weg, geblieben gilt als die Sucht.",
-            "D Unter Assad gilt als Syrien zum Narco-Staat geworden: Mit der Droge Captagon finanzierte er seinen Krieg gegen das eigene Volk."
+            "A „Ein großes Problem ist, dass es in Syrien an Fachpersonal fehlt“, sagt Abdelrahman Joukhadar, der als Arzt im Hope Center arbeitet.",
+            "B Nach seinem Medizinstudium spezialisierte sich Joukhadar auf mentale Gesundheit.",
+            "C Solche Weiterbildungen werden seit einigen Jahren auch von der Weltgesundheitsorganisation (WHO) angeboten.",
+            "D Schon vor dem Bürgerkrieg gab es kaum Psychiater und Psychotherapeutinnen im Land, wegen der Kämpfe flohen viele ins Ausland."
           ],
-          "antwoord": "B",
-          "uitleg": "Het correcte antwoord staat in alinea 11 van de tekst."
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
-          "type": "citeer",
+          "type": "toon",
           "punten": 1,
-          "context": "Alinea 15",
-          "vraag": "Citeer de woordgroep uit alinea 15 die overeenkomt met 'de belangrijkste conclusie hier'.",
-          "antwoord": "einordnet Prävention deshalb",
-          "uitleg": "Deze woordgroep staat letterlijk in alinea 15 van de tekst."
+          "context": "Absatz 15",
+          "vraag": "„Die Schmuggelrouten – etwa über Libanon und Irak – bestehen weiterhin.“ (15. Absatz)\nWas spricht aus diesem Satz?",
+          "opties": [
+            "A Erleichterung",
+            "B Zuversicht",
+            "C Begeisterung",
+            "D Ablehnung"
+          ],
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
           "type": "open",
-          "punten": 2,
-          "context": "Alinea 18",
-          "vraag": "Om welke reden(en) gaat het in alinea 18? Beantwoord in het Nederlands.",
-          "antwoord": "„Auf Syrien steuert eine echte Gesundheitskrise zu, die uns in Gefahr bringt, wenn nicht alle Ministerien Alarm schlagen“, meint der Psychiater Muwaffaq Amouri. Er kennt das Ibn-Khaldoun seit vielen Jahren: Er arbeitete hier als Assistenzarzt, bevor er wegen des Krieges floh.",
-          "uitleg": "Het antwoord staat in alinea 18 van de tekst."
+          "punten": 1,
+          "context": "Absatz 18",
+          "vraag": "Wat wordt duidelijk uit alinea 18? Beantwoord in het Nederlands.",
+          "antwoord": "„Auf Syrien steuert eine echte Gesundheitskrise zu, die uns in Gefahr bringt, wenn nicht alle Ministerien Alarm schlagen“, meint der Psychiater Muwaffaq Amouri. Er kennt das Ibn-Khaldoun seit vielen Jahren: Er arbeitete hier als Assistenzarz.",
+          "uitleg": ""
         }
       ]
     },
@@ -809,78 +774,63 @@
         {
           "type": "mc",
           "punten": 1,
-          "context": "Alinea 1",
+          "context": "Absatz 1",
+          "vraag": "Wat maakt de tekst duidelijk over alinea 1?",
+          "opties": [
+            "A Mein Name ist Anna.",
+            "B Ich komme aus Österreich und lebe seit drei Jahren in Deutschland.",
+            "C Ich bin 15 Jahre alt und habe zwei Geschwister: Meine Schwester heißt Klara und ist 13 Jahre alt, mein Bruder Michael ist 18 Jahre alt.",
+            "D Wir wohnen mit unseren Eltern in einem Haus in der Nähe von München."
+          ],
+          "antwoord": "A",
+          "uitleg": ""
+        },
+        {
+          "type": "mc",
+          "punten": 1,
+          "context": "Absatz 1",
           "vraag": "Welke uitspraak past bij alinea 1?",
           "opties": [
-            "A Physik und Chemie mag ich nicht so gerne.",
-            "B Mein Name gilt als Anna.",
-            "C Sonntag gilt als mein Lieblingstag!"
+            "A Mein Name ist Anna.",
+            "B Ich komme aus Österreich und lebe seit drei Jahren in Deutschland.",
+            "C Ich bin 15 Jahre alt und habe zwei Geschwister: Meine Schwester heißt Klara und ist 13 Jahre alt, mein Bruder Michael ist 18 Jahre alt.",
+            "D Wir wohnen mit unseren Eltern in einem Haus in der Nähe von München."
           ],
-          "antwoord": "B",
-          "uitleg": "Het correcte antwoord staat in alinea 1 van de tekst."
-        },
-        {
-          "type": "mc",
-          "punten": 1,
-          "context": "Alinea 2",
-          "vraag": "Welke uitspraak past bij alinea 2?",
-          "opties": [
-            "A Nach dem Essen gehen wir mit dem Hund am See spazieren.",
-            "B Ich gehe ebenfalls gerne in die Bildungseinrichtung, mein Lieblingsfach ist Mathematik.",
-            "C Physik und Chemie mag ich nicht so gerne."
-          ],
-          "antwoord": "C",
-          "uitleg": "Het correcte antwoord staat in alinea 2 van de tekst."
-        },
-        {
-          "type": "mc",
-          "punten": 1,
-          "context": "Alinea 2",
-          "vraag": "Wat maakt de tekst duidelijk over alinea 2?",
-          "opties": [
-            "A Am Samstag gehen wir häufig ins Kino.",
-            "B Physik und Chemie mag ich nicht so gerne.",
-            "C Ich lese gerne und mag Tiere: Wir haben einen Hund, zwei Katzen und im Garten einen Teich mit Goldfischen."
-          ],
-          "antwoord": "B",
-          "uitleg": "Het correcte antwoord staat in alinea 2 van de tekst."
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
           "type": "bewering",
-          "punten": 1,
-          "context": "Alinea 2",
-          "vraag": "Geef van elk van de volgende beweringen aan of deze overeenkomt met alinea 2. Noteer 'wel' of 'niet'.",
+          "punten": 3,
+          "context": "Absatz 2",
+          "vraag": "Geef van elk van de onderstaande beweringen aan of deze wel of niet overeenkomt met alinea 2.\nNoteer 'wel' of 'niet'.",
           "beweringen": [
             {
               "tekst": "Ich lese gerne und mag Tiere: Wir haben einen Hund, zwei Katzen und im Garten einen Teich mit Goldfischen.",
-              "antwoord": "wel"
+              "antwoord": "wel",
+              "alinea": 2
             },
             {
-              "tekst": "Tiere gehe auch gerne in die Schule, mein Lieblingsfach ist Mathematik.",
-              "antwoord": "niet"
+              "tekst": "Ich gehe auch gerne in die Schule, mein Lieblingsfach ist Mathematik.",
+              "antwoord": "niet",
+              "alinea": 2
             },
             {
               "tekst": "Physik und Chemie mag ich nicht so gerne.",
-              "antwoord": "wel"
+              "antwoord": "wel",
+              "alinea": 2
             }
           ],
-          "uitleg": "Controleer elk antwoord in alinea 2 van de tekst."
-        },
-        {
-          "type": "citeer",
-          "punten": 1,
-          "context": "Alinea 3",
-          "vraag": "Citeer de woordgroep uit alinea 3 die overeenkomt met 'de belangrijkste conclusie hier'.",
-          "antwoord": "manchmal essen Samstag",
-          "uitleg": "Deze woordgroep staat letterlijk in alinea 3 van de tekst."
+          "antwoord": "",
+          "uitleg": ""
         },
         {
           "type": "open",
           "punten": 1,
-          "context": "Alinea 3",
-          "vraag": "Welke informatie geeft de auteur in alinea 3? Beantwoord in het Nederlands.",
-          "antwoord": "Nach der Schule gehe ich oft mit meinen Freundinnen im Park spazieren, manchmal essen wir ein Eis.",
-          "uitleg": "Het antwoord staat in alinea 3 van de tekst."
+          "context": "Absatz 3",
+          "vraag": "Hoe reageert de auteur in alinea 3? Beantwoord in het Nederlands.",
+          "antwoord": "Nach der Schule gehe ich oft mit meinen Freundinnen im Park spazieren, manchmal essen wir ein Eis. Am Samstag gehen wir oft ins Kino.",
+          "uitleg": ""
         }
       ]
     },
@@ -888,7 +838,7 @@
       "id": 1777794751833,
       "niveau": "A2",
       "tekst": "Reyad Danhar aus Syrien hat in Deutschland eine bessere Zukunft gesucht – und sie auch gefunden. Er ist Koch und hat einen Michelin-Stern bekommen. Hier erzählt er seine Geschichte. \n\nIch komme aus Damaskus und lebe heute in Wuppertal in Nordrhein-Westfalen – dazwischen liegt aber eine lange Reise. Als in Syrien im Jahr 2011 der Bürgerkrieg begann, wurde mir klar: In diesem Land gibt es keine Zukunft für mich. \n\nIch floh in den Libanon. Dort verdiente ich mein Geld als Barista und Fooddesigner. Doch mit der Zeit wurde es auch dort unsicher. Ich flog nach Brasilien, fand dort aber keine Arbeit. \n\nAlso reiste ich weiter nach Algerien, Tunesien, Libyen. Ich wollte nach Deutschland. Ein Bekannter hatte dort in den 80er-Jahren gearbeitet und mir viel von der deutschen Mentalität und dem guten Leben dort erzählt. \n\nIch kontaktierte einen Schmuggler, der Boote für die Flucht nach Europa organisierte. Um fünf Uhr morgens begann die Reise. Um mich herum schrien die Babys, Frauen weinten. Ich hatte noch nie solche Angst. Dann trafen wir ein großes Schiff. Es nahm die Frauen und Kinder auf und rief die italienische Marine, die uns in einem Militärschiff abholte. \n\nVon Italien fuhr ich mit dem Zug nach Deutschland. Als ich zum ersten Mal die schwarz-rot-goldene Fahne sah, wusste ich: Ich bin endlich angekommen, hier kann meine Zukunft beginnen. Den Deutschen wollte ich etwas kochen, das sie noch nie gegessen haben\n\nZuerst besuchte ich einen Sprachkurs. Weil ich schon immer gerne in der Küche stand, machte ich eine Ausbildung zum Koch. Ich wollte mir meine eigenen Gerichte überlegen. Den Deutschen wollte ich etwas kochen, das sie noch nie gegessen haben. Ich arbeitete hart, bis ich Küchenchef des Wuppertaler Restaurants Shiraz wurde. \n\nIch glaube, dass man erst glücklich mit seinem Leben ist, wenn man etwas Großes erreicht hat. Also stellte ich mir selbst die Aufgabe, einen Michelin-Stern zu bekommen – und ich schaffte es. Andere Köchinnen finden mich chaotisch. Ich koche nicht nach Rezept, sondern nach Gefühl und Erinnerung. Trotzdem bin ich perfektionistisch. Ich glaube, das und die Kombination mit der orientalischen Küche machen meine Gerichte anders als alle anderen. \n\nMein nächstes Ziel ist es, unter die 100 besten Köche der Welt zu kommen. Ich möchte Anerkennung. Als Flüchtling bekommt man die selten. Wenn ich das geschafft habe, bin ich zufrieden mit mir. Dann höre ich vielleicht auf mit der stressigen Sterneküche, starte ein kleines Restaurant und koche nur noch Eintöpfe.",
-      "titel": "âIch wusste: Ich bin endlich angekommen!â",
+      "titel": "„Ich wusste: Ich bin endlich angekommen!”",
       "datum": "3-5-2026",
       "analysis": {
         "niveau": "B1",
@@ -916,10 +866,10 @@
           "context": "Absatz 1",
           "vraag": "Was wird aus dem 1. Absatz deutlich?",
           "opties": [
-            "A Reyad Danhar aus Syrien hat in Deutschland eine bessere Zukunft gesucht â und sie auch gefunden.",
+            "A Reyad Danhar aus Syrien hat in Deutschland eine bessere Zukunft gesucht – und sie auch gefunden.",
             "B Er ist Koch und hat einen Michelin-Stern bekommen.",
             "C Hier erzählt er seine Geschichte.",
-            "D Reyad Danhar aus Syrien hat in Deutschland eine bessere Zukunft gesucht â und sie auch gefunden."
+            "D Reyad Danhar aus Syrien hat in Deutschland eine bessere Zukunft gesucht – und sie auch gefunden."
           ],
           "antwoord": "A",
           "uitleg": ""
@@ -1002,81 +952,85 @@
         {
           "type": "mc",
           "punten": 1,
-          "context": "Alinea 1",
-          "vraag": "Was wird aus dem 1. Absatz deutlich?",
+          "context": "Absatz 1",
+          "vraag": "Was ist der Kerninhalt des 1. Absatzes?",
           "opties": [
-            "A »Die Haut besitzt sich vollständig glitschig angefühlt.",
-            "B Am Abschluss ihrer Ausbildung legen die Jugendliche sogar eine Prüfung ab.",
-            "C Baiersbronn im Schwarzwald gilt als berühmt für seine Sterneküche.",
-            "D Sarah, 12, nimmt am Programm »Europa Miniköche« teil."
+            "A Baiersbronn im Schwarzwald ist berühmt für seine Sterneküche.",
+            "B In einer Minikoch-Ausbildung lernen Kinder von Profis: Sie filetieren Fisch und falten Servietten zu Bösewichten.",
+            "C Baiersbronn im Schwarzwald ist berühmt für seine Sterneküche.",
+            "D Baiersbronn im Schwarzwald ist berühmt für seine Sterneküche."
           ],
-          "antwoord": "C",
-          "uitleg": "Het correcte antwoord staat in alinea 1 van de tekst."
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
           "type": "mc",
           "punten": 1,
-          "context": "Alinea 2",
-          "vraag": "Was wird aus dem 2. Absatz deutlich?",
+          "context": "Absatz 2",
+          "vraag": "Was ist der Kerninhalt des 2. Absatzes?",
           "opties": [
-            "A »Die Haut besitzt sich vollständig glitschig angefühlt.",
-            "B Baiersbronn gilt als für seine Spitzengastronomie bekannt.",
-            "C Die Forelle soll heute als Salat angerichtet.",
-            "D Sarah besitzt bereits als kleines Kind gern in der Küche gesessen."
+            "A Die Forelle sieht ein bisschen unheimlich aus, wie sie da leblos vor Sarah auf einem Blech liegt.",
+            "B Ihr Schuppenkleid schimmert im Licht der Küche, das Auge ist milchig weiß getrübt.",
+            "C Mit den Fingern und einem kleinen Messer entfernt Sarah die Flossen und zieht die Fischhaut ab.",
+            "D Dann schneidet sie mit einer Bewegung einmal längs durch den Fisch, vom Kopf bis zum Schwanz."
           ],
           "antwoord": "A",
-          "uitleg": "Het correcte antwoord staat in alinea 2 van de tekst."
+          "uitleg": ""
         },
         {
           "type": "bewering",
-          "punten": 1,
-          "context": "Alinea 4",
-          "vraag": "Geef van elk van de volgende beweringen aan of deze overeenkomt met alinea 4. Noteer 'wel' of 'niet'.",
+          "punten": 3,
+          "context": "Absatz 4",
+          "vraag": "Geef van elk van de onderstaande beweringen aan of deze wel of niet overeenkomt met alinea 4.\nNoteer 'wel' of 'niet'.",
           "beweringen": [
             {
-              "tekst": "Im Theorieteil erfahren sie, welche Nährstoffe in Lebensmitteln enthalten sind, wie wichtig Hygiene in der Küche ist und welche Gefahr etwa von Bakterien wie Salmonellen droht, die zum Beispiel in.",
-              "antwoord": "wel"
+              "tekst": "Im Theorieteil erfahren sie, welche Nährstoffe in Lebensmitteln enthalten sind, wie wichtig Hygiene in der Küche ist und welche Gefahr etwa von Bakterien wie Salmonellen droht, die zum Beispiel in rohen Eiern stecken können.",
+              "antwoord": "wel",
+              "alinea": 4
             },
             {
               "tekst": "Am Ende ihrer Ausbildung legen die Kinder sogar eine Prüfung ab.",
-              "antwoord": "niet"
+              "antwoord": "niet",
+              "alinea": 4
             },
             {
-              "tekst": "Sie müssen Fachbegriffe wie »Mise en Place« erklären (vor dem Kochen werden alle Zutaten und das Kochgeschirr einsatzbereit zurechtgelegt) und aus dem Kopf zum Beispiel das Rezept für schwäbischen.",
-              "antwoord": "wel"
+              "tekst": "Sie müssen Fachbegriffe wie »Mise en Place« erklären (vor dem Kochen werden alle Zutaten und das Kochgeschirr einsatzbereit zurechtgelegt) und aus dem Kopf zum Beispiel das Rezept für schwäbischen Kartoffel­salat aufschreiben.",
+              "antwoord": "wel",
+              "alinea": 4
             }
           ],
-          "uitleg": "Controleer elk antwoord in alinea 4 van de tekst."
+          "antwoord": "",
+          "uitleg": ""
+        },
+        {
+          "type": "relatie",
+          "punten": 1,
+          "context": "Absatz 6",
+          "vraag": "„Die Forelle wird heute als Salat angerichtet.“ (6. Absatz)\nWie verhält sich dieser Satz zu dem vorangehenden Satz?",
+          "opties": [
+            "A als schlussfolgerung.",
+            "B als steigerung.",
+            "C als konkretisierung.",
+            "D als einräumung."
+          ],
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
           "type": "citeer",
           "punten": 1,
-          "context": "Alinea 6",
-          "vraag": "Citeer de woordgroep uit alinea 6 die overeenkomt met 'de belangrijkste conclusie hier'.",
-          "antwoord": "Krallen« erinnert Köchinnen",
-          "uitleg": "Deze woordgroep staat letterlijk in alinea 6 van de tekst."
-        },
-        {
-          "type": "mc",
-          "punten": 1,
-          "context": "Alinea 7",
-          "vraag": "Welche Aussage trifft auf Absatz 7 zu?",
-          "opties": [
-            "A Baiersbronn gilt als für seine Spitzengastronomie bekannt.",
-            "B Lediglichr mal mahnend in die Mitte gelegt.",
-            "C Ob mit oder ohne Stern, gilt als ihr egal.",
-            "D Wo die Jugendliche heute Fisch filetieren, besitzt sonst ein Drei-Sterne-Koch das Sagen."
-          ],
-          "antwoord": "A",
-          "uitleg": "Het correcte antwoord staat in alinea 7 van de tekst."
+          "context": "Absatz 7",
+          "vraag": "Citeer de eerste twee woorden van de zin in alinea 7 die de hoofdgedachte weergeeft.",
+          "antwoord": "Der Forellensalat",
+          "uitleg": ""
         },
         {
           "type": "open",
           "punten": 1,
-          "context": "Alinea 9",
-          "vraag": "Welke informatie geeft de auteur in alinea 9? Beantwoord in het Nederlands.",
-          "antwoord": "Auch einige der 24 Miniköche möchten später einmal professionell kochen.",
-          "uitleg": "Het antwoord staat in alinea 9 van de tekst."
+          "context": "Absatz 9",
+          "vraag": "Hoe reageert de auteur in alinea 9? Beantwoord in het Nederlands.",
+          "antwoord": "Auch einige der 24 Miniköche möchten später einmal professionell kochen. Statt Sternen können sie sich vorerst Knöpfe verdienen.",
+          "uitleg": ""
         }
       ]
     },
@@ -1220,85 +1174,85 @@
         {
           "type": "mc",
           "punten": 1,
-          "context": "Alinea 1",
-          "vraag": "Welche Aussage trifft auf Absatz 1 zu?",
+          "context": "Absatz 1",
+          "vraag": "Was wird aus dem 1. Absatz deutlich?",
           "opties": [
             "A Als Professorin für Entwicklungspsychologie erforscht Eva Wunderer TikTok, Instagram und Co.",
-            "B Heute kann hingegen jede Person mit dem Handy tolle Fotos von sich machen, sie in Apps bearbeiten und auf Social Mediâ¦",
-            "C »Bevor es das Internet gab, haben Menschen ihr Aussehen vor allem mit den Bildern von Models verglichen.",
-            "D Damals war deutlicher, dass dahinter viel Arbeit steckte, etwa von Profi-Fotografinnen und Make-up-Artisten."
+            "B Dabei hat sie herausgefunden, wann zu viel Social Media schädlich für Menschen wird.",
+            "C Als Professorin für Entwicklungspsychologie erforscht Eva Wunderer TikTok, Instagram und Co.",
+            "D Als Professorin für Entwicklungspsychologie erforscht Eva Wunderer TikTok, Instagram und Co."
           ],
           "antwoord": "A",
-          "uitleg": "Het correcte antwoord staat in alinea 1 van de tekst."
+          "uitleg": ""
         },
         {
           "type": "mc",
           "punten": 1,
-          "context": "Alinea 2",
-          "vraag": "Was wird aus dem 2. Absatz deutlich?",
+          "context": "Absatz 2",
+          "vraag": "Welche Aussage stimmt mit dem 2. Absatz überein?",
           "opties": [
             "A »Bevor es das Internet gab, haben Menschen ihr Aussehen vor allem mit den Bildern von Models verglichen.",
-            "B Dabei hat sie herausgefunden, wann zu viel Social Media schädlich für Menschen wird.",
-            "C Vor einigen Jahren haben wir zu diesem Thema geforscht.",
-            "D Wir wollten wissen, welche Auswirkungen soziale Medien auf junge Menschen haben."
+            "B Damals war deutlicher, dass dahinter viel Arbeit steckte, etwa von Profi-Fotografinnen und Make-up-Artisten.",
+            "C Heute kann hingegen jede Person mit dem Handy tolle Fotos von sich machen, sie in Apps bearbeiten und auf Social Media hochladen.",
+            "D Deswegen vergleichen sich viele nicht mehr bloß mit Models, sondern auch mit Leuten von nebenan."
           ],
           "antwoord": "A",
-          "uitleg": "Het correcte antwoord staat in alinea 2 van de tekst."
+          "uitleg": ""
         },
         {
           "type": "bewering",
-          "punten": 1,
-          "context": "Alinea 3",
-          "vraag": "Geef van elk van de volgende beweringen aan of deze overeenkomt met alinea 3. Noteer 'wel' of 'niet'.",
+          "punten": 3,
+          "context": "Absatz 3",
+          "vraag": "Geef van elk van de onderstaande beweringen aan of deze wel of niet overeenkomt met alinea 3.\nNoteer 'wel' of 'niet'.",
           "beweringen": [
             {
               "tekst": "Vor einigen Jahren haben wir zu diesem Thema geforscht.",
-              "antwoord": "wel"
+              "antwoord": "wel",
+              "alinea": 3
             },
             {
               "tekst": "Wir wollten wissen, welche Auswirkungen soziale Medien auf junge Menschen haben.",
-              "antwoord": "niet"
+              "antwoord": "niet",
+              "alinea": 3
             },
             {
-              "tekst": "Vor allem untersuchten wir, was Plattformen wie Instagram mit Menschen machen, die an Essstörunge…",
-              "antwoord": "wel"
-            },
-            {
-              "tekst": "Also mit Leuten, die ohnehin schon Schwierigkeiten damit haben, ihren Körper zu mögen.",
-              "antwoord": "niet"
+              "tekst": "Vor allem untersuchten wir, was Plattformen wie Instagram mit Menschen machen, die an Essstörungen leiden.",
+              "antwoord": "wel",
+              "alinea": 3
             }
           ],
-          "uitleg": "Controleer elk antwoord in alinea 3 van de tekst."
+          "antwoord": "",
+          "uitleg": ""
+        },
+        {
+          "type": "relatie",
+          "punten": 1,
+          "context": "Absatz 4",
+          "vraag": "„Das kann so ablaufen: Zuerst nehme ich ein Bild von mir auf und stelle fest, dass ich darauf nicht so aussehe wie andere auf Social Media.“ (4. Absatz)\nWie verhält sich dieser Satz zu dem vorangehenden Satz?",
+          "opties": [
+            "A als begründung.",
+            "B als einräumung.",
+            "C als schlussfolgerung.",
+            "D als verallgemeinerung."
+          ],
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
           "type": "citeer",
           "punten": 1,
-          "context": "Alinea 4",
-          "vraag": "Citeer de woordgroep uit alinea 4 die overeenkomt met 'de kernboodschap van de auteur'.",
-          "antwoord": "Forschung zeigte soziale",
-          "uitleg": "Deze woordgroep staat letterlijk in alinea 4 van de tekst."
-        },
-        {
-          "type": "mc",
-          "punten": 1,
-          "context": "Alinea 5",
-          "vraag": "Welche Aussage stimmt mit dem 5. Absatz überein?",
-          "opties": [
-            "A Das kann einen noch mehr unter Druck setzen.",
-            "B Das heißt nicht, dass soziale Medien allein zu Essstörungen führen.",
-            "C Heute kann hingegen jede Person mit dem Handy tolle Fotos von sich machen, sie in Apps bearbeiten und auf Social Mediâ¦",
-            "D Deswegen vergleichen sich viele nicht mehr bloß mit Models, sondern auch mit Leuten von nebenan."
-          ],
-          "antwoord": "B",
-          "uitleg": "Het correcte antwoord staat in alinea 5 van de tekst."
+          "context": "Absatz 5",
+          "vraag": "Citeer de eerste twee woorden van de zin in alinea 5 die de hoofdgedachte weergeeft.",
+          "antwoord": "Bei Filtern",
+          "uitleg": ""
         },
         {
           "type": "open",
-          "punten": 1,
-          "context": "Alinea 6",
-          "vraag": "Welke informatie geeft de auteur in alinea 6? Beantwoord in het Nederlands.",
-          "antwoord": "Insgesamt lassen uns Soziale Medien häu­figer über unseren Körper nachdenken und ihn mit anderen vergleichen.",
-          "uitleg": "Het antwoord staat in alinea 6 van de tekst."
+          "punten": 2,
+          "context": "Absatz 6",
+          "vraag": "Welke twee redenen worden er in alinea 6 gegeven? Beantwoord in het Nederlands.",
+          "antwoord": "Insgesamt lassen uns Soziale Medien häu­figer über unseren Körper nachdenken und ihn mit anderen vergleichen. Das kann krank machen.",
+          "uitleg": ""
         }
       ]
     },
@@ -1562,10 +1516,10 @@
           "context": "Absatz 1",
           "vraag": "Was wird aus dem 1. Absatz deutlich?",
           "opties": [
-            "A Jeff Bezosâ Raumfahrtfirma Blue Origin muss eine Raketenpause einlegen.",
+            "A Jeff Bezos’ Raumfahrtfirma Blue Origin muss eine Raketenpause einlegen.",
             "B Die US-Flugaufsichtsbehörde hat nach einer Panne eine Untersuchung angeordnet.",
             "C Das könnte auch Pläne der Nasa zurückwerfen.",
-            "D Jeff Bezosâ Raumfahrtfirma Blue Origin muss eine Raketenpause einlegen."
+            "D Jeff Bezos’ Raumfahrtfirma Blue Origin muss eine Raketenpause einlegen."
           ],
           "antwoord": "A",
           "uitleg": ""
@@ -1734,7 +1688,7 @@
           "type": "toon",
           "punten": 1,
           "context": "Absatz 8",
-          "vraag": "âSie kritisierten unterschiedliche nationale Vorschriften etwa zu Aromen in Einweg-E-Zigaretten und E-Zigaretten.â (8. Absatz)\nWas spricht aus diesem Satz?",
+          "vraag": "„Sie kritisierten unterschiedliche nationale Vorschriften etwa zu Aromen in Einweg-E-Zigaretten und E-Zigaretten.“ (8. Absatz)\nWas spricht aus diesem Satz?",
           "opties": [
             "A Gleichgültigkeit",
             "B Skepsis",
@@ -1895,77 +1849,86 @@
         {
           "type": "mc",
           "punten": 1,
-          "context": "Alinea 1",
+          "context": "Absatz 1",
           "vraag": "Was wird aus dem 1. Absatz deutlich?",
           "opties": [
-            "A Es ging nahezu einmal um die Welt für die großen Schmuckhäuser, die ihre vermögenden Privatkund:innen (und die Presse…",
-            "B Vermögende Privatkunden und die Presse reisten um die Welt, um die neuesten und wertvollsten Kollektionen zu sehen (u…",
-            "C VOGUE stellt Ihnen im Folgenden die schönsten High-Jewellery-Stücke vor\nDie Natur stand im Fokus: Boucheron reiste üb…",
-            "D Cartier und De Beers widmeten sich der Tierwelt, Chaumets Stücke erinnerten an die melodischen Motive der Musik, und …"
+            "A Vermögende Privatkunden und die Presse reisten um die Welt, um die neuesten und wertvollsten Kollektionen zu sehen (und zu kaufen).",
+            "B High Jewellery: Mit diesen funkelnden Preziosen stehen Sie dieses Jahr im Mittelpunkt – und das bei jedem Event.",
+            "C Vermögende Privatkunden und die Presse reisten um die Welt, um die neuesten und wertvollsten Kollektionen zu sehen (und zu kaufen).",
+            "D Vermögende Privatkunden und die Presse reisten um die Welt, um die neuesten und wertvollsten Kollektionen zu sehen (und zu kaufen)."
           ],
-          "antwoord": "B",
-          "uitleg": "Het correcte antwoord staat in alinea 1 van de tekst."
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
           "type": "bewering",
-          "punten": 1,
-          "context": "Alinea 1",
-          "vraag": "Geef van elk van de volgende beweringen aan of deze overeenkomt met alinea 1. Noteer 'wel' of 'niet'.",
+          "punten": 2,
+          "context": "Absatz 1",
+          "vraag": "Geef van elk van de onderstaande beweringen aan of deze wel of niet overeenkomt met alinea 1.\nNoteer 'wel' of 'niet'.",
           "beweringen": [
             {
-              "tekst": "Vermögende Privatkunden und die Presse reisten um die Welt, um die neuesten und wertvollsten Koll…",
-              "antwoord": "wel"
+              "tekst": "Vermögende Privatkunden und die Presse reisten um die Welt, um die neuesten und wertvollsten Kollektionen zu sehen (und zu kaufen).",
+              "antwoord": "wel",
+              "alinea": 1
             },
             {
-              "tekst": "High Jewellery: Mit diesen funkelnden Preziosen stehen Sie dieses Jahr im Mittelpunkt â und das bâ¦",
-              "antwoord": "niet"
+              "tekst": "High Jewellery: Mit diesen funkelnden Preziosen stehen Sie dieses Jahr im Mittelpunkt – und das bei jedem Event.",
+              "antwoord": "niet",
+              "alinea": 1
             }
           ],
-          "uitleg": "Controleer elk antwoord in alinea 1 van de tekst."
+          "antwoord": "",
+          "uitleg": ""
         },
         {
           "type": "relatie",
           "punten": 1,
-          "context": "Alinea 2",
-          "vraag": "\"Es ging nahezu einmal um die Welt für die großen Schmuckhäuser, die ihre verm…\" (Alinea 2)\nWie verhält sich dieser Satz zu dem vorangehenden Satz?",
+          "context": "Absatz 2",
+          "vraag": "„Mailand!“ (2. Absatz)\nWie verhält sich dieser Satz zu dem vorangehenden Satz?",
           "opties": [
-            "A eine Schlussfolgerung.",
-            "B eine Relativierung.",
-            "C eine Konkretisierung.",
-            "D ein Beispiel."
+            "A als gegensatz.",
+            "B als schlussfolgerung.",
+            "C als begründung.",
+            "D als widerlegung."
           ],
           "antwoord": "A",
-          "uitleg": "Bekijk de relatie tussen de twee zinnen in alinea 2."
+          "uitleg": ""
         },
         {
           "type": "mc",
           "punten": 1,
-          "context": "Alinea 3",
+          "context": "Absatz 3",
           "vraag": "Was wird aus dem 3. Absatz deutlich?",
           "opties": [
-            "A VOGUE stellt Ihnen im Folgenden die schönsten High-Jewellery-Stücke vor\nDie Natur stand im Fokus: Boucheron reiste üb…",
-            "B High Jewellery: Mit diesen funkelnden Preziosen stehen Sie dieses Jahr im Mittelpunkt â und das bei jedem Event.",
-            "C Vermögende Privatkunden und die Presse reisten um die Welt, um die neuesten und wertvollsten Kollektionen zu sehen (u…",
-            "D Es ging nahezu einmal um die Welt für die großen Schmuckhäuser, die ihre vermögenden Privatkund:innen (und die Presse…"
+            "A VOGUE stellt Ihnen im Folgenden die schönsten High-Jewellery-Stücke vor\nDie Natur stand im Fokus: Boucheron reiste über die zerklüfteten Küsten Islands, Dior begab sich auf eine fantastische Reise durch die Wälder, Chopard erfreute sich an der märchenhaften Flora, und Gucci zelebrierte die duftende Schönheit italienischer Gärten.",
+            "B Cartier und De Beers widmeten sich der Tierwelt, Chaumets Stücke erinnerten an die melodischen Motive der Musik, und Herz- und Sternenmotive waren allgegenwärtig.",
+            "C VOGUE stellt Ihnen im Folgenden die schönsten High-Jewellery-Stücke vor\nDie Natur stand im Fokus: Boucheron reiste über die zerklüfteten Küsten Islands, Dior begab sich auf eine fantastische Reise durch die Wälder, Chopard erfreute sich an der märchenhaften Flora, und Gucci zelebrierte die duftende Schönheit italienischer Gärten.",
+            "D VOGUE stellt Ihnen im Folgenden die schönsten High-Jewellery-Stücke vor\nDie Natur stand im Fokus: Boucheron reiste über die zerklüfteten Küsten Islands, Dior begab sich auf eine fantastische Reise durch die Wälder, Chopard erfreute sich an der märchenhaften Flora, und Gucci zelebrierte die duftende Schönheit italienischer Gärten."
           ],
           "antwoord": "A",
-          "uitleg": "Het correcte antwoord staat in alinea 3 van de tekst."
+          "uitleg": ""
         },
         {
-          "type": "citeer",
+          "type": "toon",
           "punten": 1,
-          "context": "Alinea 3",
-          "vraag": "Citeer de woordgroep uit alinea 3 die overeenkomt met 'de samenvatting van dit deel'.",
-          "antwoord": "Flora Gucci zelebrierte",
-          "uitleg": "Deze woordgroep staat letterlijk in alinea 3 van de tekst."
+          "context": "Absatz 3",
+          "vraag": "„VOGUE stellt Ihnen im Folgenden die schönsten High-Jewellery-Stücke vor\nDie Natur stand im Fokus: Boucheron reiste über die zerklüfteten Küsten Islands, Dior begab sich auf eine fantastische Reise durch die Wälder, Chopard erfreute sich an der märchenhaften Flora, und Gucci zelebrierte die duftende Schönheit italienischer Gärten.“ (3. Absatz)\nWas spricht aus diesem Satz?",
+          "opties": [
+            "A Erleichterung",
+            "B Ablehnung",
+            "C Kritik",
+            "D Ironie"
+          ],
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
           "type": "open",
-          "punten": 1,
-          "context": "Alinea 4",
-          "vraag": "Welke informatie geeft de auteur in alinea 4? Beantwoord in het Nederlands.",
-          "antwoord": "Die wilde Schönheit von Boucheron\nDie \"tiefschwarzen Wellen\", die die Kreativdirektorin Claire Choisne während einer Forschungsreise 2022 an der vu…",
-          "uitleg": "Het antwoord staat in alinea 4 van de tekst."
+          "punten": 2,
+          "context": "Absatz 4",
+          "vraag": "Welke twee redenen worden er in alinea 4 gegeven? Beantwoord in het Nederlands.",
+          "antwoord": "Die wilde Schönheit von Boucheron\nDie \"tiefschwarzen Wellen\", die die Kreativdirektorin Claire Choisne während einer Forschungsreise 2022 an der vulkanischen Küste Islands aufschlagen sah, inspirierten sie zu ihrer Kollektion \"Or Bleu\" für Boucheron. Hier werden die Motive wilder Landschaften – krachende Wellen, kolossale Gletsch.",
+          "uitleg": ""
         }
       ]
     },
@@ -1993,7 +1956,7 @@
         "vreemdeWoorden": [],
         "toelichting": "Demo-resultaat."
       },
-      "bron": "LLE: A2 â definitief: B1",
+      "bron": "LLE: A2 → definitief: B1",
       "vragen": [
         {
           "type": "mc",
@@ -2002,7 +1965,7 @@
           "vraag": "Welche Aussage stimmt mit dem 1. Absatz überein?",
           "opties": [
             "A Seit 25 Jahren reist der belgische Künstler Francis Alÿs durch alle Welt.",
-            "B Er fotografiert und filmt Kinder, die spielen â von Afghanistan bis Mexiko.",
+            "B Er fotografiert und filmt Kinder, die spielen – von Afghanistan bis Mexiko.",
             "C Warum macht er das?",
             "D Seit 25 Jahren reist der belgische Künstler Francis Alÿs durch alle Welt."
           ],
@@ -2018,7 +1981,7 @@
             "A DEIN SPIEGEL: Gibt es etwas, das alle Kinder auf der Welt spielen?",
             "B Alÿs: Ja, zum Beispiel »Himmel und Hölle« – das ist ein Hüpfspiel.",
             "C Man malt Kästchen auf den Boden und springt von Feld zu Feld.",
-            "D In jedem Land sieht das Muster etwas anders aus â mal ist es eine Spirale, mal ein Quadrat."
+            "D In jedem Land sieht das Muster etwas anders aus – mal ist es eine Spirale, mal ein Quadrat."
           ],
           "antwoord": "A",
           "uitleg": ""
@@ -2129,7 +2092,7 @@
             "A ie gehören bei den meisten Kindern zum Lieblingsessen, mit Tomatensoße und einem Berg Parmesan darüber.",
             "B Oder in Bolognese ertränkt oder mit Fäden ziehender Käse­soße: Nudeln.",
             "C Es gibt sie in Schmetterlingsform, als Muscheln oder Buchstaben in der Suppe.",
-            "D Spaghetti, Penne, Makkaroni â im Supermarktregal reihen sich etliche Sorten nebeneinander."
+            "D Spaghetti, Penne, Makkaroni – im Supermarktregal reihen sich etliche Sorten nebeneinander."
           ],
           "antwoord": "A",
           "uitleg": ""
@@ -3236,85 +3199,90 @@
         {
           "type": "mc",
           "punten": 1,
-          "context": "Alinea 1",
-          "vraag": "Was wird aus Absatz 1 deutlich?",
+          "context": "Absatz 1",
+          "vraag": "Welche Aussage stimmt mit dem 1. Absatz überein?",
           "opties": [
-            "A Spanien mochte ich besonders, wegen der vielen frischen Früchte und weil überall Eichhörnchen in den Bäumen herumhüpf…",
-            "B Bereits ihr ganzes Alltag lang segelt Mia mit ihren Eltern und Geschwistern um die Welt.",
-            "C Aber am allerliebsten bin ich auf dem Meer.",
-            "D Ich weiß gar nicht mehr, in wie vielen Ländern ich bereits war."
+            "A Schon ihr ganzes Leben lang segelt Mia mit ihren Eltern und Geschwistern um die Welt.",
+            "B Welche Stationen ihr besonders gefielen und warum ein Streit bis zum Sonnenuntergang geschlichtet sein muss, erzählt sie hier.",
+            "C nser Zuhause heißt »Pachamama« – das bedeutet in der Sprache der Inka »Mutter Erde« und ist der Name des Schiffs, auf dem wir leben.",
+            "D Meine Eltern haben vor 25 Jahren die Schweiz verlassen, und unterwegs sind wir zu einer großen Familie geworden."
           ],
-          "antwoord": "B",
-          "uitleg": "Het correcte antwoord staat in alinea 1 van de tekst."
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
           "type": "mc",
           "punten": 1,
-          "context": "Alinea 3",
-          "vraag": "Was wird aus Absatz 3 deutlich?",
+          "context": "Absatz 3",
+          "vraag": "Was wird aus dem 3. Absatz deutlich?",
           "opties": [
-            "A Bereits ihr ganzes Alltag lang segelt Mia mit ihren Eltern und Geschwistern um die Welt.",
-            "B nser Zuhause heißt »Pachamama« – das bedeutet in der Sprache der Inka »Mutter Erde« und gilt als der Name des Schiffs, auf…",
-            "C Auf der »Pachamama« fühle ich mich wohl, selbst wenn die Wellen hoch gelten als.",
-            "D Welche Stationen ihr besonders gefielen und warum ein Streit bis zum Sonnenuntergang geschlichtet sein muss, erzählt …"
+            "A Auf der »Pachamama« fühle ich mich wohl, selbst wenn die Wellen hoch sind.",
+            "B Dann spiele ich mit meinem kleinen Bruder Vital unser Lieblingsspiel: Wenn eine große Welle kommt, springen wir im richtigen Moment hoch und lassen uns in die Luft katapultieren.",
+            "C Angst habe ich auf dem Meer eigentlich nie.",
+            "D Mama sagt, die Natur will uns nichts Böses, und das glaube ich auch."
           ],
-          "antwoord": "C",
-          "uitleg": "Het correcte antwoord staat in alinea 3 van de tekst."
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
           "type": "bewering",
-          "punten": 1,
-          "context": "Alinea 5",
-          "vraag": "Geef van elk van de volgende beweringen aan of deze overeenkomt met alinea 5. Noteer 'wel' of 'niet'.",
+          "punten": 4,
+          "context": "Absatz 5",
+          "vraag": "Geef van elk van de onderstaande beweringen aan of deze wel of niet overeenkomt met alinea 5.\nNoteer 'wel' of 'niet'.",
           "beweringen": [
             {
-              "tekst": "Im Internet und in vielen Schulen auf der ganzen Welt berichten wir, wie wir leben und was wir au…",
-              "antwoord": "wel"
+              "tekst": "Im Internet und in vielen Schulen auf der ganzen Welt berichten wir, wie wir leben und was wir auf unseren Expeditionen beobachten: Die Gletscher schmelzen jedes Jahr ein Stück weiter, der Meeresspiegel steigt, und auf manchen Inseln wird der Platz zum Leben immer knapper.",
+              "antwoord": "wel",
+              "alinea": 5
             },
             {
               "tekst": "Aber wir reden nicht nur darüber, wir helfen auch selbst mit.",
-              "antwoord": "niet"
+              "antwoord": "niet",
+              "alinea": 5
             },
             {
-              "tekst": "Wenn wir an Strände kommen, die seit Monaten wahrscheinlich kein Mensch betreten hat, finden wir …",
-              "antwoord": "wel"
+              "tekst": "Wenn wir an Strände kommen, die seit Monaten wahrscheinlich kein Mensch betreten hat, finden wir dort trotzdem überall Plastikmüll.",
+              "antwoord": "wel",
+              "alinea": 5
             },
             {
               "tekst": "Das macht mich traurig.",
-              "antwoord": "niet"
+              "antwoord": "niet",
+              "alinea": 5
             }
           ],
-          "uitleg": "Controleer elk antwoord in alinea 5 van de tekst."
+          "antwoord": "",
+          "uitleg": ""
+        },
+        {
+          "type": "relatie",
+          "punten": 1,
+          "context": "Absatz 7",
+          "vraag": "„Meine Geschwister und ich lernen online mit einem Schulprogramm aus der Schweiz.“ (7. Absatz)\nWie verhält sich dieser Satz zu dem vorangehenden Satz?",
+          "opties": [
+            "A als steigerung.",
+            "B als begründung.",
+            "C als relativierung.",
+            "D als gegensatz."
+          ],
+          "antwoord": "A",
+          "uitleg": ""
         },
         {
           "type": "citeer",
           "punten": 1,
-          "context": "Alinea 7",
-          "vraag": "Citeer de woordgroep uit alinea 7 die overeenkomt met 'de belangrijkste conclusie hier'.",
-          "antwoord": "ganzes mitgesegelt letzte",
-          "uitleg": "Deze woordgroep staat letterlijk in alinea 7 van de tekst."
-        },
-        {
-          "type": "mc",
-          "punten": 1,
-          "context": "Alinea 9",
-          "vraag": "Welke Aussage passt zu Absatz 9?",
-          "opties": [
-            "A nser Zuhause heißt »Pachamama« – das bedeutet in der Sprache der Inka »Mutter Erde« und gilt als der Name des Schiffs, auf…",
-            "B Weil alle so zahlreich zu tun haben, essen wir lediglich einmal am Tag zusammen.",
-            "C Bereits ihr ganzes Alltag lang segelt Mia mit ihren Eltern und Geschwistern um die Welt.",
-            "D Welche Stationen ihr besonders gefielen und warum ein Streit bis zum Sonnenuntergang geschlichtet sein muss, erzählt …"
-          ],
-          "antwoord": "B",
-          "uitleg": "Het correcte antwoord staat in alinea 9 van de tekst."
+          "context": "Absatz 9",
+          "vraag": "Citeer de eerste twee woorden van de zin in alinea 9 die de hoofdgedachte weergeeft.",
+          "antwoord": "Weil alle",
+          "uitleg": ""
         },
         {
           "type": "open",
-          "punten": 1,
-          "context": "Alinea 11",
-          "vraag": "Welke informatie geeft de auteur in alinea 11? Beantwoord in het Nederlands.",
-          "antwoord": "Manchmal streiten wir uns auch.",
-          "uitleg": "Het antwoord staat in alinea 11 van de tekst."
+          "punten": 2,
+          "context": "Absatz 11",
+          "vraag": "Welke twee redenen worden er in alinea 11 gegeven? Beantwoord in het Nederlands.",
+          "antwoord": "Manchmal streiten wir uns auch. Dann werden wir von Mama und Papa nach vorn zum Anker geschickt, um uns wieder z.",
+          "uitleg": ""
         }
       ]
     },
